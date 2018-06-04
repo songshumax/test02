@@ -50,6 +50,8 @@
 		994708B62039AF2A003409DD /* Mc_MapCustom01View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994708B52039AF2A003409DD /* Mc_MapCustom01View.swift */; };
 		994CAAE02021F703006E9930 /* MC_MyClub_NewHuodong_Form01_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994CAADF2021F703006E9930 /* MC_MyClub_NewHuodong_Form01_ViewController.swift */; };
 		9956777420B0F5B500F7FC3F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9956777120B0F5B500F7FC3F /* GoogleService-Info.plist */; };
+		9985750420BC1CB200203F91 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9985750320BC1CB200203F91 /* RootViewController.swift */; };
+		9985750B20C22D3500203F91 /* HD_TableViewCell_Detail_R01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9985750A20C22D3500203F91 /* HD_TableViewCell_Detail_R01.swift */; };
 		9993263820A3347100C79D5D /* UINaviRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9993263720A3347100C79D5D /* UINaviRootViewController.swift */; };
 		99976E5A203A717500811A48 /* MC_MapCustom02View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99976E59203A717500811A48 /* MC_MapCustom02View.swift */; };
 		99976E5C203AE55300811A48 /* MC_MapCustom03ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99976E5B203AE55300811A48 /* MC_MapCustom03ViewController.swift */; };
@@ -199,6 +201,8 @@
 		995575E820BAB04A00B19B1A /* CVCalendar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CVCalendar.xcodeproj; path = "CVCalendar-master/CVCalendar.xcodeproj"; sourceTree = "<group>"; };
 		995575EE20BAB06000B19B1A /* SwiftFormsApplication.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftFormsApplication.xcodeproj; path = "SwiftForms-master/SwiftFormsApplication.xcodeproj"; sourceTree = "<group>"; };
 		9956777120B0F5B500F7FC3F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9985750320BC1CB200203F91 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RootViewController.swift; path = 04_Login/RootViewController.swift; sourceTree = "<group>"; };
+		9985750A20C22D3500203F91 /* HD_TableViewCell_Detail_R01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HD_TableViewCell_Detail_R01.swift; path = HouDong/Controller/HD_TableViewCell_Detail_R01.swift; sourceTree = "<group>"; };
 		9993263720A3347100C79D5D /* UINaviRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UINaviRootViewController.swift; path = 04_Login/UINaviRootViewController.swift; sourceTree = "<group>"; };
 		99976E59203A717500811A48 /* MC_MapCustom02View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MC_MapCustom02View.swift; path = 03_MyClub/Controller/MC_MapCustom02View.swift; sourceTree = "<group>"; };
 		99976E5B203AE55300811A48 /* MC_MapCustom03ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MC_MapCustom03ViewController.swift; path = 03_MyClub/Controller/MC_MapCustom03ViewController.swift; sourceTree = "<group>"; };
@@ -318,6 +322,7 @@
 				92F945C91F813D4C00CD0638 /* HD_TableViewCell.swift */,
 				92F945CA1F813D4C00CD0638 /* HD_TableViewCell.xib */,
 				926F66211F96BFD30053A8C9 /* HD_CollectionViewCell_HuoDongZhongLei.swift */,
+				9985750A20C22D3500203F91 /* HD_TableViewCell_Detail_R01.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -502,6 +507,7 @@
 			children = (
 				991A72BE20A1DF1100FD0024 /* LoginViewController.swift */,
 				9993263720A3347100C79D5D /* UINaviRootViewController.swift */,
+				9985750320BC1CB200203F91 /* RootViewController.swift */,
 			);
 			name = 04_login;
 			sourceTree = "<group>";
@@ -936,7 +942,9 @@
 				920C77711FADD7A900625060 /* MyClub_Data_Structs.swift in Sources */,
 				9993263820A3347100C79D5D /* UINaviRootViewController.swift in Sources */,
 				926505B51F10AF9500362203 /* ViewController.swift in Sources */,
+				9985750B20C22D3500203F91 /* HD_TableViewCell_Detail_R01.swift in Sources */,
 				928FBAC21F68226900B55CFC /* MC_ClubMainViewController.swift in Sources */,
+				9985750420BC1CB200203F91 /* RootViewController.swift in Sources */,
 				9222D2D41FA98E540033BD65 /* JLB_Module_Club.swift in Sources */,
 				9256408D1F13BB390024A20F /* HD_ViewController_Main.swift in Sources */,
 				991CF84C201D986300EB66A7 /* MC_MyClubNewHuoDongController01.swift in Sources */,

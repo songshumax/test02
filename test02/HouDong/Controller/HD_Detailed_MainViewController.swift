@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class HD_Detailed_MainViewController: UIViewController {
+class HD_Detailed_MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource		 {
 
     @IBOutlet weak var HDMap: MKMapView!
     @IBOutlet weak var 活动详细: UILabel!
@@ -25,6 +25,7 @@ class HD_Detailed_MainViewController: UIViewController {
     @IBOutlet weak var canjiarenshu: UILabel!
     @IBOutlet weak var hd_canjiabutton: UIButton!		
     
+    @IBOutlet weak var tableview: UITableView!
     var hd_str_huodongxiangxi : HD_struct_HuodongXiangXi?
     var hd_flag : Bool = true
 
@@ -34,6 +35,8 @@ class HD_Detailed_MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tableview.dataSource = self
+        tableview.delegate = self
         //Set_DisplayColume(p_huodongxiangxi :hd_str_huodongxiangxi!)
         
         //地图异步设定
@@ -50,6 +53,16 @@ class HD_Detailed_MainViewController: UIViewController {
         
     }
 
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+            return 2
+    }
+    
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "HD_TableViewCell_Detail_R01", for : indexPath as IndexPath) as! HD_TableViewCell_Detail
+        cell.backgroundColor = UIColor.blue
+        return cell
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
