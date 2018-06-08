@@ -58,8 +58,9 @@ class HD_Detailed_MainViewController: UIViewController, UITableViewDelegate, UIT
     }
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "HD_TableViewCell_Detail_R01", for : indexPath as IndexPath) as! HD_TableViewCell_Detail
+        let cell = tableView.dequeueReusableCell(withIdentifier: "HD_TableViewCell_Detail_R01", for : indexPath as IndexPath) as! HD_TableViewCell_Detail_R01
         cell.backgroundColor = UIColor.blue
+        
         return cell
         
     }
