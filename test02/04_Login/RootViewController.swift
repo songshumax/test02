@@ -13,7 +13,7 @@ class RootViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let v1 = 
+      
         print("root")
         // Do any additional setup after loading the view.
         

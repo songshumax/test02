@@ -15,6 +15,9 @@ target 'test02' do
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
   pod 'Firebase/Storage'
+  
+  #pod 'Chatto', '= 3.3.1'
+  #pod 'ChattoAdditions', '= 3.3.1' # if you want to use the cells or the input component
 
   # Pods for test02
 
