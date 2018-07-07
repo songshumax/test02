@@ -21,6 +21,8 @@
 		9222D2D91FA997C20033BD65 /* JLB_CanjiaZhongList_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222D2D81FA997C20033BD65 /* JLB_CanjiaZhongList_Cell.swift */; };
 		9231838D1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231838C1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift */; };
 		9231838F1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231838E1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift */; };
+		9237D85120F0A1B100AC7A67 /* TSChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9237D84A20F0A1B100AC7A67 /* TSChatViewController.swift */; };
+		9237D85220F0A1B100AC7A67 /* TSChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9237D85020F0A1B100AC7A67 /* TSChatViewController.xib */; };
 		924D73241F83C39600E74BD0 /* HD_Module_HuoDong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924D73231F83C39600E74BD0 /* HD_Module_HuoDong.swift */; };
 		924D73261F83C45A00E74BD0 /* HD_Data_Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924D73251F83C45A00E74BD0 /* HD_Data_Structs.swift */; };
 		9256408D1F13BB390024A20F /* HD_ViewController_Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9256408C1F13BB390024A20F /* HD_ViewController_Main.swift */; };
@@ -52,6 +54,9 @@
 		92BDB4F520DE273A00F49C51 /* Common_Cell01_CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BDB4F420DE273A00F49C51 /* Common_Cell01_CollectionView.swift */; };
 		92BDB4F820DE2DB100F49C51 /* XXX_10_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BDB4F720DE2DB100F49C51 /* XXX_10_ViewController.swift */; };
 		92DE371F1F447B96007C1CBA /* GlobalValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DE371E1F447B96007C1CBA /* GlobalValue.swift */; };
+		92E4496520F04BBB0045CA96 /* message.json in Resources */ = {isa = PBXBuildFile; fileRef = 92E4496220F04BBB0045CA96 /* message.json */; };
+		92E4496620F04BBB0045CA96 /* chat.json in Resources */ = {isa = PBXBuildFile; fileRef = 92E4496320F04BBB0045CA96 /* chat.json */; };
+		92E4496720F04BBB0045CA96 /* contact.json in Resources */ = {isa = PBXBuildFile; fileRef = 92E4496420F04BBB0045CA96 /* contact.json */; };
 		92F3105620DE08D800B115D2 /* XXX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F3105520DE08D800B115D2 /* XXX.storyboard */; };
 		92F3105920DE1FF900B115D2 /* Common_TableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92F3105820DE1FF900B115D2 /* Common_TableView.xib */; };
 		92F3105B20DE201D00B115D2 /* Common_Cell01.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92F3105A20DE201D00B115D2 /* Common_Cell01.xib */; };
@@ -178,6 +183,8 @@
 		9222D2D81FA997C20033BD65 /* JLB_CanjiaZhongList_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_CanjiaZhongList_Cell.swift; path = Controller/JLB_CanjiaZhongList_Cell.swift; sourceTree = "<group>"; };
 		9231838C1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_ClubDetail_TableViewController.swift; path = JuLeBu/Controller/JLB_ClubDetail_TableViewController.swift; sourceTree = "<group>"; };
 		9231838E1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_UserList_CollectionViewController.swift; path = 03_MyClub/Controller/JLB_UserList_CollectionViewController.swift; sourceTree = "<group>"; };
+		9237D84A20F0A1B100AC7A67 /* TSChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatViewController.swift; sourceTree = "<group>"; };
+		9237D85020F0A1B100AC7A67 /* TSChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSChatViewController.xib; sourceTree = "<group>"; };
 		924D73231F83C39600E74BD0 /* HD_Module_HuoDong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HD_Module_HuoDong.swift; path = HouDong/Module/HD_Module_HuoDong.swift; sourceTree = "<group>"; };
 		924D73251F83C45A00E74BD0 /* HD_Data_Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HD_Data_Structs.swift; path = HouDong/Data/HD_Data_Structs.swift; sourceTree = "<group>"; };
 		924D73271F859EFC00E74BD0 /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
@@ -216,6 +223,9 @@
 		92BDB4F420DE273A00F49C51 /* Common_Cell01_CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_Cell01_CollectionView.swift; path = 90_Common/Common_Cell01_CollectionView.swift; sourceTree = "<group>"; };
 		92BDB4F720DE2DB100F49C51 /* XXX_10_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XXX_10_ViewController.swift; path = 10_XXX/XXX_10/Controller/XXX_10_ViewController.swift; sourceTree = "<group>"; };
 		92DE371E1F447B96007C1CBA /* GlobalValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalValue.swift; sourceTree = "<group>"; };
+		92E4496220F04BBB0045CA96 /* message.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = message.json; sourceTree = "<group>"; };
+		92E4496320F04BBB0045CA96 /* chat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chat.json; sourceTree = "<group>"; };
+		92E4496420F04BBB0045CA96 /* contact.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contact.json; sourceTree = "<group>"; };
 		92F3105520DE08D800B115D2 /* XXX.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = XXX.storyboard; sourceTree = "<group>"; };
 		92F3105820DE1FF900B115D2 /* Common_TableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Common_TableView.xib; path = 90_Common/Common_TableView.xib; sourceTree = "<group>"; };
 		92F3105A20DE201D00B115D2 /* Common_Cell01.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Common_Cell01.xib; path = 90_Common/Common_Cell01.xib; sourceTree = "<group>"; };
@@ -296,6 +306,8 @@
 		92180A4B20EA543A0091D736 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				9237D84A20F0A1B100AC7A67 /* TSChatViewController.swift */,
+				9237D85020F0A1B100AC7A67 /* TSChatViewController.xib */,
 				92180A5120EA54530091D736 /* ChatLogController.swift */,
 			);
 			name = Chat;
@@ -407,6 +419,7 @@
 		926505B11F10AF9500362203 /* test02 */ = {
 			isa = PBXGroup;
 			children = (
+				92E4495B20F04B870045CA96 /* Resource */,
 				92F3105C20DE212400B115D2 /* 10_XXX */,
 				92F3105720DE1FA900B115D2 /* 90_Common */,
 				991A72BB20A1DECC00FD0024 /* 04_login */,
@@ -533,6 +546,24 @@
 				92A8BAF720E86538004245C2 /* XXX_101010_AddNewViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		92E4495B20F04B870045CA96 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				92E4496120F04B9F0045CA96 /* JSON */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		92E4496120F04B9F0045CA96 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				92E4496320F04BBB0045CA96 /* chat.json */,
+				92E4496420F04BBB0045CA96 /* contact.json */,
+				92E4496220F04BBB0045CA96 /* message.json */,
+			);
+			name = JSON;
 			sourceTree = "<group>";
 		};
 		92F3104F20DE089E00B115D2 /* New Group */ = {
@@ -850,12 +881,16 @@
 			files = (
 				92F3105920DE1FF900B115D2 /* Common_TableView.xib in Resources */,
 				926505BD1F10AF9500362203 /* LaunchScreen.storyboard in Resources */,
+				92E4496720F04BBB0045CA96 /* contact.json in Resources */,
 				926505BA1F10AF9500362203 /* Assets.xcassets in Resources */,
 				927A4D9A20CBB31700F0D20E /* CollectionViewCell.xib in Resources */,
+				9237D85220F0A1B100AC7A67 /* TSChatViewController.xib in Resources */,
 				92F3105B20DE201D00B115D2 /* Common_Cell01.xib in Resources */,
 				9956777420B0F5B500F7FC3F /* GoogleService-Info.plist in Resources */,
+				92E4496520F04BBB0045CA96 /* message.json in Resources */,
 				926505B81F10AF9500362203 /* Main.storyboard in Resources */,
 				92F3105620DE08D800B115D2 /* XXX.storyboard in Resources */,
+				92E4496620F04BBB0045CA96 /* chat.json in Resources */,
 				92A8BAF620E7B19C004245C2 /* Common_TableViewCell.xib in Resources */,
 				92F945CC1F813D4C00CD0638 /* HD_TableViewCell.xib in Resources */,
 			);
@@ -999,6 +1034,7 @@
 				9993263820A3347100C79D5D /* UINaviRootViewController.swift in Sources */,
 				926505B51F10AF9500362203 /* ViewController.swift in Sources */,
 				9985750B20C22D3500203F91 /* HD_TableViewCell_Detail_R01.swift in Sources */,
+				9237D85120F0A1B100AC7A67 /* TSChatViewController.swift in Sources */,
 				928FBAC21F68226900B55CFC /* MC_ClubMainViewController.swift in Sources */,
 				9985750420BC1CB200203F91 /* RootViewController.swift in Sources */,
 				9222D2D41FA98E540033BD65 /* JLB_Module_Club.swift in Sources */,
