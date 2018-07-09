@@ -62,13 +62,13 @@ class MC_MakeClubViewController: UIViewController,UICollectionViewDataSource, UI
 //        var theSegue = segue.destinationViewController as SecondViewController
 //        theSegue.text = "Pass"
         
-        if segue.identifier == "goInputClubInfo"{
-            
-            let controller = segue.destination as! MC_MakeClubViewController2
-            let detailtype = sender as! MyClub_DetailType_Structs
-            controller.vClubTypeName = detailtype.myClub_DetailTypeName
-            controller.vClubTypeID = detailtype.myClub_DetailTypeID
-            
-        }
+//        if segue.identifier == "goInputClubInfo"{
+//            
+//            let controller = segue.destination as! MC_MakeClubViewController2
+//            let detailtype = sender as! MyClub_DetailType_Structs
+//            controller.vClubTypeName = detailtype.myClub_DetailTypeName
+//            controller.vClubTypeID = detailtype.myClub_DetailTypeID
+//            
+//        }
     }
 }

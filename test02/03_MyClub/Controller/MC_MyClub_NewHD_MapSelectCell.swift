@@ -108,7 +108,7 @@ class MC_MyClub_NewHD_MapSelectCell: FormBaseCell ,UITextFieldDelegate{
         
     }
     //输入框内容编辑
-    internal func editingChanged(_ sender: UITextField) {
+    @objc internal func editingChanged(_ sender: UITextField) {
         guard let text = sender.text, text.characters.count > 0
             else { rowDescriptor?.value = nil; update(); return }
         rowDescriptor?.value = text as AnyObject

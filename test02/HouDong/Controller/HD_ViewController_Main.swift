@@ -128,7 +128,7 @@ class HD_ViewController_Main: UIViewController ,UITableViewDataSource,UITableVie
 
     }
     
-    func button_onClick(_ sender:UIButton){
+    @objc func button_onClick(_ sender:UIButton){
         
         if segmented_huodongleibie.selectedSegmentIndex == 0 {
             //参加
@@ -207,37 +207,37 @@ class HD_ViewController_Main: UIViewController ,UITableViewDataSource,UITableVie
         
     }
     
-    //在这个方法中给新页面传递参数
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-
-        if segue.identifier == "hd_xiangxi"{
-
-            let controller = segue.destination as! HD_Detailed_MainViewController
-            controller.hd_str_huodongxiangxi = sender as? HD_struct_HuodongXiangXi
-            if segmented_huodongleibie.selectedSegmentIndex == 2 {
-                    controller.hd_flag = false
-            } else {
-                controller.hd_flag = true
-            }
-            
-        }
-    }
-    
-    //segue回调方法，获取返回参数
-    @IBAction func backFromFindSegue(segue : UIStoryboardSegue){
-        if segue.identifier == "BackHDMainFromFindView"{
-            //获取返回的控制器
-            let backVC = segue.source as! HD_FindViewController
-            celldatas1 =  huodong.MF_GetHuoDong_FindFuJin(dongjing: 11, beiwei: 22, banjing :backVC.find_banjing , leibie: backVC.find_leibie)
-        
-        }
-        if segue.identifier == "backMainForP2"{
-            //获取返回的控制器
-            let backVC = segue.source as! HD_FindViewController
-            celldatas1 =  huodong.MF_GetHuoDong_FindFuJin(dongjing: 11, beiwei: 22, banjing :backVC.find_banjing , leibie: backVC.find_leibie)
-            
-        }
-        table_fujin.reloadData()
-    }
+//    //在这个方法中给新页面传递参数
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//
+////        if segue.identifier == "hd_xiangxi"{
+////
+////            let controller = segue.destination as! HD_Detailed_MainViewController
+////            controller.hd_str_huodongxiangxi = sender as? HD_struct_HuodongXiangXi
+////            if segmented_huodongleibie.selectedSegmentIndex == 2 {
+////                    controller.hd_flag = false
+////            } else {
+////                controller.hd_flag = true
+////            }
+////
+////        }
+//    }
+//    
+//    //segue回调方法，获取返回参数
+//    @IBAction func backFromFindSegue(segue : UIStoryboardSegue){
+////        if segue.identifier == "BackHDMainFromFindView"{
+////            //获取返回的控制器
+////            let backVC = segue.source as! HD_FindViewController
+////            celldatas1 =  huodong.MF_GetHuoDong_FindFuJin(dongjing: 11, beiwei: 22, banjing :backVC.find_banjing , leibie: backVC.find_leibie)
+////
+////        }
+////        if segue.identifier == "backMainForP2"{
+////            //获取返回的控制器
+////            let backVC = segue.source as! HD_FindViewController
+////            celldatas1 =  huodong.MF_GetHuoDong_FindFuJin(dongjing: 11, beiwei: 22, banjing :backVC.find_banjing , leibie: backVC.find_leibie)
+////
+////        }
+////        table_fujin.reloadData()
+////    }
     
 }

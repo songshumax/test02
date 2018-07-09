@@ -34,7 +34,7 @@ class JLB_LiaoTian: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func sayHello() {
+    @objc func sayHello() {
         print("hello")
         self.performSegue(withIdentifier: "SEG_JLB_LiaoTian_XX", sender: self)
         
