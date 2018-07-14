@@ -33,6 +33,8 @@
 		926505C81F10AF9500362203 /* test02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926505C71F10AF9500362203 /* test02Tests.swift */; };
 		926505D31F10AF9500362203 /* test02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926505D21F10AF9500362203 /* test02UITests.swift */; };
 		926F66221F96BFD30053A8C9 /* HD_CollectionViewCell_HuoDongZhongLei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926F66211F96BFD30053A8C9 /* HD_CollectionViewCell_HuoDongZhongLei.swift */; };
+		9270239320F9EE0800523C24 /* Expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9270238D20F9EE0700523C24 /* Expression.plist */; };
+		9270239520F9EFA500523C24 /* Expression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9270239420F9EFA400523C24 /* Expression.bundle */; };
 		9278FFAF20F24752006B88C9 /* AudioPlayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9278FFA320F24752006B88C9 /* AudioPlayManager.swift */; };
 		9278FFB020F24752006B88C9 /* TSChatTextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9278FFA420F24752006B88C9 /* TSChatTextParser.swift */; };
 		9278FFB120F24752006B88C9 /* TSChatEmojiDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9278FFA520F24752006B88C9 /* TSChatEmojiDictionary.swift */; };
@@ -279,6 +281,8 @@
 		926505D21F10AF9500362203 /* test02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test02UITests.swift; sourceTree = "<group>"; };
 		926505D41F10AF9500362203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		926F66211F96BFD30053A8C9 /* HD_CollectionViewCell_HuoDongZhongLei.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HD_CollectionViewCell_HuoDongZhongLei.swift; path = HouDong/Controller/HD_CollectionViewCell_HuoDongZhongLei.swift; sourceTree = "<group>"; };
+		9270238D20F9EE0700523C24 /* Expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expression.plist; sourceTree = "<group>"; };
+		9270239420F9EFA400523C24 /* Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Expression.bundle; sourceTree = "<group>"; };
 		9278FFA320F24752006B88C9 /* AudioPlayManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayManager.swift; sourceTree = "<group>"; };
 		9278FFA420F24752006B88C9 /* TSChatTextParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatTextParser.swift; sourceTree = "<group>"; };
 		9278FFA520F24752006B88C9 /* TSChatEmojiDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatEmojiDictionary.swift; sourceTree = "<group>"; };
@@ -776,6 +780,8 @@
 		92E4495B20F04B870045CA96 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				9270239420F9EFA400523C24 /* Expression.bundle */,
+				9270238D20F9EE0700523C24 /* Expression.plist */,
 				92E4496120F04B9F0045CA96 /* JSON */,
 			);
 			name = Resource;
@@ -1194,12 +1200,14 @@
 				92E6BB7D20F0B2EC00D4C0D8 /* TSChatViewController.xib in Resources */,
 				9278FFC820F247F2006B88C9 /* TSChatTextCell.xib in Resources */,
 				92F3105B20DE201D00B115D2 /* Common_Cell01.xib in Resources */,
+				9270239320F9EE0800523C24 /* Expression.plist in Resources */,
 				92E6BB9D20F0BECD00D4C0D8 /* TSChatEmotionInputView.xib in Resources */,
 				9956777420B0F5B500F7FC3F /* GoogleService-Info.plist in Resources */,
 				92E4496520F04BBB0045CA96 /* message.json in Resources */,
 				92E6BB9E20F0BECD00D4C0D8 /* TSChatActionBarView.xib in Resources */,
 				9278FFD020F247F2006B88C9 /* TSChatVoiceCell.xib in Resources */,
 				92E6BB9920F0BECD00D4C0D8 /* TSChatShareMoreCollectionViewCell.xib in Resources */,
+				9270239520F9EFA500523C24 /* Expression.bundle in Resources */,
 				9278FFCD20F247F2006B88C9 /* TSChatSystemCell.xib in Resources */,
 				926505B81F10AF9500362203 /* Main.storyboard in Resources */,
 				92E6BBA020F0BECD00D4C0D8 /* TSChatShareMoreView.xib in Resources */,
