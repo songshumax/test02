@@ -265,67 +265,6 @@
 		924D73271F859EFC00E74BD0 /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
 		9256408C1F13BB390024A20F /* HD_ViewController_Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HD_ViewController_Main.swift; path = HouDong/Controller/HD_ViewController_Main.swift; sourceTree = "<group>"; };
 		9256408E1F13BDCC0024A20F /* HD_ViewController_Main_TVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HD_ViewController_Main_TVC.swift; sourceTree = "<group>"; };
-		9257729420F3A31D00B48F18 /* Array+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+TSExtension.swift"; sourceTree = "<group>"; };
-		9257729520F3A31D00B48F18 /* Bundle+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+TSExtension.swift"; sourceTree = "<group>"; };
-		9257729620F3A31D00B48F18 /* CGSize+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+TSExtension.swift"; sourceTree = "<group>"; };
-		9257729720F3A31D00B48F18 /* Data+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+TSExtension.swift"; sourceTree = "<group>"; };
-		9257729820F3A31D00B48F18 /* Date+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+TSExtension.swift"; sourceTree = "<group>"; };
-		9257729920F3A31D00B48F18 /* Dictionary+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+TSExtension.swift"; sourceTree = "<group>"; };
-		9257729A20F3A31D00B48F18 /* DispatchQueue+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+TSExtension.swift"; sourceTree = "<group>"; };
-		9257729B20F3A31D00B48F18 /* Double+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+TSExtension.swift"; sourceTree = "<group>"; };
-		9257729C20F3A31D00B48F18 /* FileManager+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+TSExtension.swift"; sourceTree = "<group>"; };
-		9257729D20F3A31D00B48F18 /* IndexPath+TSOffset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IndexPath+TSOffset.swift"; sourceTree = "<group>"; };
-		9257729E20F3A31D00B48F18 /* IndexSet+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IndexSet+TSExtension.swift"; sourceTree = "<group>"; };
-		9257729F20F3A31D00B48F18 /* NotificationCenter+TSBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+TSBlock.swift"; sourceTree = "<group>"; };
-		925772A020F3A31D00B48F18 /* NSDictionary+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+TSExtension.swift"; sourceTree = "<group>"; };
-		925772A120F3A31D00B48F18 /* NSObject+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+TSExtension.swift"; sourceTree = "<group>"; };
-		925772A220F3A31D00B48F18 /* NSRange+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSRange+TSExtension.swift"; sourceTree = "<group>"; };
-		925772A320F3A31D00B48F18 /* NSString+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+TSExtension.swift"; sourceTree = "<group>"; };
-		925772A420F3A31D00B48F18 /* String+TSCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+TSCrypto.swift"; sourceTree = "<group>"; };
-		925772A520F3A31D00B48F18 /* String+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+TSExtension.swift"; sourceTree = "<group>"; };
-		925772A620F3A31D00B48F18 /* TimedSilverHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimedSilverHeader.h; sourceTree = "<group>"; };
-		925772A720F3A31D00B48F18 /* Timer+TSBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Timer+TSBlock.swift"; sourceTree = "<group>"; };
-		925772A820F3A31D00B48F18 /* UIAlertController+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+TSExtension.swift"; sourceTree = "<group>"; };
-		925772A920F3A31D00B48F18 /* UIApplication+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+TSExtension.swift"; sourceTree = "<group>"; };
-		925772AA20F3A31D00B48F18 /* UIButton+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+TSExtension.swift"; sourceTree = "<group>"; };
-		925772AB20F3A31D00B48F18 /* UIButton+TSTouchArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+TSTouchArea.swift"; sourceTree = "<group>"; };
-		925772AC20F3A31D00B48F18 /* UICollectionView+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+TSExtension.swift"; sourceTree = "<group>"; };
-		925772AD20F3A31D00B48F18 /* UICollectionView+TSGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+TSGeneric.swift"; sourceTree = "<group>"; };
-		925772AE20F3A31D00B48F18 /* UIColor+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+TSExtension.swift"; sourceTree = "<group>"; };
-		925772AF20F3A31D00B48F18 /* UIControl+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+TSExtension.swift"; sourceTree = "<group>"; };
-		925772B020F3A31D00B48F18 /* UIControl+TSSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+TSSound.swift"; sourceTree = "<group>"; };
-		925772B120F3A31D00B48F18 /* UIDevice+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+TSExtension.swift"; sourceTree = "<group>"; };
-		925772B220F3A31D00B48F18 /* UIDevice+TSType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+TSType.swift"; sourceTree = "<group>"; };
-		925772B320F3A31D00B48F18 /* UIImage+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+TSExtension.swift"; sourceTree = "<group>"; };
-		925772B420F3A31D00B48F18 /* UIImage+TSLaunchImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+TSLaunchImage.swift"; sourceTree = "<group>"; };
-		925772B520F3A31D00B48F18 /* UIImage+TSOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+TSOrientation.swift"; sourceTree = "<group>"; };
-		925772B620F3A31D00B48F18 /* UIImage+TSResize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+TSResize.swift"; sourceTree = "<group>"; };
-		925772B720F3A31D00B48F18 /* UIImage+TSRoundedCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+TSRoundedCorner.swift"; sourceTree = "<group>"; };
-		925772B820F3A31D00B48F18 /* UILabel+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+TSExtension.swift"; sourceTree = "<group>"; };
-		925772B920F3A31D00B48F18 /* UINavigationController+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+TSExtension.swift"; sourceTree = "<group>"; };
-		925772BA20F3A31D00B48F18 /* UINavigationItem+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+TSExtension.swift"; sourceTree = "<group>"; };
-		925772BB20F3A31D00B48F18 /* UIScreen+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+TSExtension.swift"; sourceTree = "<group>"; };
-		925772BC20F3A31D00B48F18 /* UIScrollView+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+TSExtension.swift"; sourceTree = "<group>"; };
-		925772BD20F3A31D00B48F18 /* UIScrollView+TSPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+TSPage.swift"; sourceTree = "<group>"; };
-		925772BE20F3A31D00B48F18 /* UISearchBar+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+TSExtension.swift"; sourceTree = "<group>"; };
-		925772BF20F3A31D00B48F18 /* UITableView+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+TSExtension.swift"; sourceTree = "<group>"; };
-		925772C020F3A31D00B48F18 /* UITableView+TSGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+TSGeneric.swift"; sourceTree = "<group>"; };
-		925772C120F3A31D00B48F18 /* UITableView+TSiOS7SettingStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+TSiOS7SettingStyle.swift"; sourceTree = "<group>"; };
-		925772C220F3A31D00B48F18 /* UIView+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+TSExtension.swift"; sourceTree = "<group>"; };
-		925772C320F3A31D00B48F18 /* UIView+TSFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+TSFrame.swift"; sourceTree = "<group>"; };
-		925772C420F3A31D00B48F18 /* UIView+TSGestureBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+TSGestureBlock.swift"; sourceTree = "<group>"; };
-		925772C520F3A31D00B48F18 /* UIViewController+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+TSExtension.swift"; sourceTree = "<group>"; };
-		925772C620F3A31D00B48F18 /* UIViewController+TSVisible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+TSVisible.swift"; sourceTree = "<group>"; };
-		925772C720F3A31D00B48F18 /* UIWindow+TSHierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+TSHierarchy.swift"; sourceTree = "<group>"; };
-		925772C820F3A31D00B48F18 /* URLRequest+TScURLCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+TScURLCommand.swift"; sourceTree = "<group>"; };
-		925772C920F3A31D00B48F18 /* UserDefaults+TSArchiveData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+TSArchiveData.swift"; sourceTree = "<group>"; };
-		925772CA20F3A31D00B48F18 /* UserDefaults+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+TSExtension.swift"; sourceTree = "<group>"; };
-		925772CB20F3A31D00B48F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "test02/Target Support Files/TimedSilver/Info.plist"; sourceTree = "<group>"; };
-		925772CC20F3A31D00B48F18 /* TimedSilver.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = TimedSilver.modulemap; path = "test02/Target Support Files/TimedSilver/TimedSilver.modulemap"; sourceTree = "<group>"; };
-		925772CD20F3A31D00B48F18 /* TimedSilver.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = TimedSilver.xcconfig; path = "test02/Target Support Files/TimedSilver/TimedSilver.xcconfig"; sourceTree = "<group>"; };
-		925772CE20F3A31D00B48F18 /* TimedSilver-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "TimedSilver-dummy.m"; path = "test02/Target Support Files/TimedSilver/TimedSilver-dummy.m"; sourceTree = "<group>"; };
-		925772CF20F3A31D00B48F18 /* TimedSilver-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TimedSilver-prefix.pch"; path = "test02/Target Support Files/TimedSilver/TimedSilver-prefix.pch"; sourceTree = "<group>"; };
-		925772D020F3A31D00B48F18 /* TimedSilver-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TimedSilver-umbrella.h"; path = "test02/Target Support Files/TimedSilver/TimedSilver-umbrella.h"; sourceTree = "<group>"; };
 		926505AF1F10AF9500362203 /* test02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		926505B21F10AF9500362203 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		926505B41F10AF9500362203 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -611,83 +550,6 @@
 			name = Data;
 			sourceTree = "<group>";
 		};
-		925772D120F3A31D00B48F18 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				925772CB20F3A31D00B48F18 /* Info.plist */,
-				925772CC20F3A31D00B48F18 /* TimedSilver.modulemap */,
-				925772CD20F3A31D00B48F18 /* TimedSilver.xcconfig */,
-				925772CE20F3A31D00B48F18 /* TimedSilver-dummy.m */,
-				925772CF20F3A31D00B48F18 /* TimedSilver-prefix.pch */,
-				925772D020F3A31D00B48F18 /* TimedSilver-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TimedSilver";
-			sourceTree = "<group>";
-		};
-		925772D220F3A31D00B48F18 /* TimedSilver */ = {
-			isa = PBXGroup;
-			children = (
-				9257729420F3A31D00B48F18 /* Array+TSExtension.swift */,
-				9257729520F3A31D00B48F18 /* Bundle+TSExtension.swift */,
-				9257729620F3A31D00B48F18 /* CGSize+TSExtension.swift */,
-				9257729720F3A31D00B48F18 /* Data+TSExtension.swift */,
-				9257729820F3A31D00B48F18 /* Date+TSExtension.swift */,
-				9257729920F3A31D00B48F18 /* Dictionary+TSExtension.swift */,
-				9257729A20F3A31D00B48F18 /* DispatchQueue+TSExtension.swift */,
-				9257729B20F3A31D00B48F18 /* Double+TSExtension.swift */,
-				9257729C20F3A31D00B48F18 /* FileManager+TSExtension.swift */,
-				9257729D20F3A31D00B48F18 /* IndexPath+TSOffset.swift */,
-				9257729E20F3A31D00B48F18 /* IndexSet+TSExtension.swift */,
-				9257729F20F3A31D00B48F18 /* NotificationCenter+TSBlock.swift */,
-				925772A020F3A31D00B48F18 /* NSDictionary+TSExtension.swift */,
-				925772A120F3A31D00B48F18 /* NSObject+TSExtension.swift */,
-				925772A220F3A31D00B48F18 /* NSRange+TSExtension.swift */,
-				925772A320F3A31D00B48F18 /* NSString+TSExtension.swift */,
-				925772A420F3A31D00B48F18 /* String+TSCrypto.swift */,
-				925772A520F3A31D00B48F18 /* String+TSExtension.swift */,
-				925772A620F3A31D00B48F18 /* TimedSilverHeader.h */,
-				925772A720F3A31D00B48F18 /* Timer+TSBlock.swift */,
-				925772A820F3A31D00B48F18 /* UIAlertController+TSExtension.swift */,
-				925772A920F3A31D00B48F18 /* UIApplication+TSExtension.swift */,
-				925772AA20F3A31D00B48F18 /* UIButton+TSExtension.swift */,
-				925772AB20F3A31D00B48F18 /* UIButton+TSTouchArea.swift */,
-				925772AC20F3A31D00B48F18 /* UICollectionView+TSExtension.swift */,
-				925772AD20F3A31D00B48F18 /* UICollectionView+TSGeneric.swift */,
-				925772AE20F3A31D00B48F18 /* UIColor+TSExtension.swift */,
-				925772AF20F3A31D00B48F18 /* UIControl+TSExtension.swift */,
-				925772B020F3A31D00B48F18 /* UIControl+TSSound.swift */,
-				925772B120F3A31D00B48F18 /* UIDevice+TSExtension.swift */,
-				925772B220F3A31D00B48F18 /* UIDevice+TSType.swift */,
-				925772B320F3A31D00B48F18 /* UIImage+TSExtension.swift */,
-				925772B420F3A31D00B48F18 /* UIImage+TSLaunchImage.swift */,
-				925772B520F3A31D00B48F18 /* UIImage+TSOrientation.swift */,
-				925772B620F3A31D00B48F18 /* UIImage+TSResize.swift */,
-				925772B720F3A31D00B48F18 /* UIImage+TSRoundedCorner.swift */,
-				925772B820F3A31D00B48F18 /* UILabel+TSExtension.swift */,
-				925772B920F3A31D00B48F18 /* UINavigationController+TSExtension.swift */,
-				925772BA20F3A31D00B48F18 /* UINavigationItem+TSExtension.swift */,
-				925772BB20F3A31D00B48F18 /* UIScreen+TSExtension.swift */,
-				925772BC20F3A31D00B48F18 /* UIScrollView+TSExtension.swift */,
-				925772BD20F3A31D00B48F18 /* UIScrollView+TSPage.swift */,
-				925772BE20F3A31D00B48F18 /* UISearchBar+TSExtension.swift */,
-				925772BF20F3A31D00B48F18 /* UITableView+TSExtension.swift */,
-				925772C020F3A31D00B48F18 /* UITableView+TSGeneric.swift */,
-				925772C120F3A31D00B48F18 /* UITableView+TSiOS7SettingStyle.swift */,
-				925772C220F3A31D00B48F18 /* UIView+TSExtension.swift */,
-				925772C320F3A31D00B48F18 /* UIView+TSFrame.swift */,
-				925772C420F3A31D00B48F18 /* UIView+TSGestureBlock.swift */,
-				925772C520F3A31D00B48F18 /* UIViewController+TSExtension.swift */,
-				925772C620F3A31D00B48F18 /* UIViewController+TSVisible.swift */,
-				925772C720F3A31D00B48F18 /* UIWindow+TSHierarchy.swift */,
-				925772C820F3A31D00B48F18 /* URLRequest+TScURLCommand.swift */,
-				925772C920F3A31D00B48F18 /* UserDefaults+TSArchiveData.swift */,
-				925772CA20F3A31D00B48F18 /* UserDefaults+TSExtension.swift */,
-				925772D120F3A31D00B48F18 /* Support Files */,
-			);
-			path = TimedSilver;
-			sourceTree = "<group>";
-		};
 		926505A61F10AF9500362203 = {
 			isa = PBXGroup;
 			children = (
@@ -717,7 +579,6 @@
 		926505B11F10AF9500362203 /* test02 */ = {
 			isa = PBXGroup;
 			children = (
-				925772D220F3A31D00B48F18 /* TimedSilver */,
 				92E6BBA320F0C4EE00D4C0D8 /* Helpers */,
 				92E4495B20F04B870045CA96 /* Resource */,
 				92F3105C20DE212400B115D2 /* 10_XXX */,
@@ -1667,7 +1528,7 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -1717,7 +1578,7 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -1764,7 +1625,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = test02/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dglm.test02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1785,7 +1646,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = test02/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dglm.test02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
