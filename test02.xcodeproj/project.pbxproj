@@ -19,6 +19,17 @@
 		9222D2D41FA98E540033BD65 /* JLB_Module_Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222D2D31FA98E540033BD65 /* JLB_Module_Club.swift */; };
 		9222D2D61FA98FDD0033BD65 /* JLB_Data_Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222D2D51FA98FDD0033BD65 /* JLB_Data_Structs.swift */; };
 		9222D2D91FA997C20033BD65 /* JLB_CanjiaZhongList_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222D2D81FA997C20033BD65 /* JLB_CanjiaZhongList_Cell.swift */; };
+		922F697320FDB1B000EFE6A9 /* YDC_Model01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922F697220FDB1B000EFE6A9 /* YDC_Model01.swift */; };
+		922F697A20FDE2B000EFE6A9 /* ydc1.json in Sources */ = {isa = PBXBuildFile; fileRef = 922F697920FDE2B000EFE6A9 /* ydc1.json */; };
+		922F697C20FDEAF700EFE6A9 /* ydc2.json in Resources */ = {isa = PBXBuildFile; fileRef = 922F697B20FDEAF700EFE6A9 /* ydc2.json */; };
+		922F697E20FDEB1000EFE6A9 /* ydc3.json in Resources */ = {isa = PBXBuildFile; fileRef = 922F697D20FDEB1000EFE6A9 /* ydc3.json */; };
+		922F698020FDEB2700EFE6A9 /* ydc4.json in Resources */ = {isa = PBXBuildFile; fileRef = 922F697F20FDEB2700EFE6A9 /* ydc4.json */; };
+		922F698220FDEC3F00EFE6A9 /* YDC_Model02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922F698120FDEC3E00EFE6A9 /* YDC_Model02.swift */; };
+		922F698420FDEC5000EFE6A9 /* YDC_Model03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922F698320FDEC5000EFE6A9 /* YDC_Model03.swift */; };
+		922F698620FDEC6000EFE6A9 /* YDC_Model04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922F698520FDEC6000EFE6A9 /* YDC_Model04.swift */; };
+		922F698820FDFB9300EFE6A9 /* YDC_10_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922F698720FDFB9300EFE6A9 /* YDC_10_TableViewCell.swift */; };
+		922F698E20FDFCA000EFE6A9 /* YDC_10_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 922F698D20FDFCA000EFE6A9 /* YDC_10_TableViewCell.xib */; };
+		922F698F20FE122300EFE6A9 /* ydc1.json in Resources */ = {isa = PBXBuildFile; fileRef = 922F697920FDE2B000EFE6A9 /* ydc1.json */; };
 		9231838D1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231838C1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift */; };
 		9231838F1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231838E1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift */; };
 		924D73241F83C39600E74BD0 /* HD_Module_HuoDong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924D73231F83C39600E74BD0 /* HD_Module_HuoDong.swift */; };
@@ -101,6 +112,8 @@
 		92CB748A20F3A8DA00015A62 /* TSAppMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB748820F3A8DA00015A62 /* TSAppMacro.swift */; };
 		92CB748B20F3A8DA00015A62 /* TSConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB748920F3A8DA00015A62 /* TSConfig.swift */; };
 		92D2A5A620FCA6CE002A0E4A /* TSChatTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92D2A5A520FCA6CD002A0E4A /* TSChatTextCell.xib */; };
+		92D2A5A820FD98E0002A0E4A /* SwiftPopMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D2A5A720FD98E0002A0E4A /* SwiftPopMenu.swift */; };
+		92D2A5AD20FD9EB0002A0E4A /* YDC_10_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D2A5AC20FD9EB0002A0E4A /* YDC_10_ViewController.swift */; };
 		92DE371F1F447B96007C1CBA /* GlobalValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DE371E1F447B96007C1CBA /* GlobalValue.swift */; };
 		92E4496520F04BBB0045CA96 /* message.json in Resources */ = {isa = PBXBuildFile; fileRef = 92E4496220F04BBB0045CA96 /* message.json */; };
 		92E4496620F04BBB0045CA96 /* chat.json in Resources */ = {isa = PBXBuildFile; fileRef = 92E4496320F04BBB0045CA96 /* chat.json */; };
@@ -278,6 +291,16 @@
 		9222D2D31FA98E540033BD65 /* JLB_Module_Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_Module_Club.swift; path = 03_MyClub/Module/JLB_Module_Club.swift; sourceTree = "<group>"; };
 		9222D2D51FA98FDD0033BD65 /* JLB_Data_Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_Data_Structs.swift; path = 03_MyClub/Data/JLB_Data_Structs.swift; sourceTree = "<group>"; };
 		9222D2D81FA997C20033BD65 /* JLB_CanjiaZhongList_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_CanjiaZhongList_Cell.swift; path = Controller/JLB_CanjiaZhongList_Cell.swift; sourceTree = "<group>"; };
+		922F697220FDB1B000EFE6A9 /* YDC_Model01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YDC_Model01.swift; path = 20_YunDongChang/Module/YDC_Model01.swift; sourceTree = "<group>"; };
+		922F697920FDE2B000EFE6A9 /* ydc1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = ydc1.json; path = 90_Common/Resource/JSON/ydc1.json; sourceTree = "<group>"; };
+		922F697B20FDEAF700EFE6A9 /* ydc2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = ydc2.json; path = 90_Common/Resource/JSON/ydc2.json; sourceTree = "<group>"; };
+		922F697D20FDEB1000EFE6A9 /* ydc3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = ydc3.json; path = 90_Common/Resource/JSON/ydc3.json; sourceTree = "<group>"; };
+		922F697F20FDEB2700EFE6A9 /* ydc4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = ydc4.json; path = 90_Common/Resource/JSON/ydc4.json; sourceTree = "<group>"; };
+		922F698120FDEC3E00EFE6A9 /* YDC_Model02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YDC_Model02.swift; path = 20_YunDongChang/Module/YDC_Model02.swift; sourceTree = "<group>"; };
+		922F698320FDEC5000EFE6A9 /* YDC_Model03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YDC_Model03.swift; path = 20_YunDongChang/Module/YDC_Model03.swift; sourceTree = "<group>"; };
+		922F698520FDEC6000EFE6A9 /* YDC_Model04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YDC_Model04.swift; path = 20_YunDongChang/Module/YDC_Model04.swift; sourceTree = "<group>"; };
+		922F698720FDFB9300EFE6A9 /* YDC_10_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YDC_10_TableViewCell.swift; path = 20_YunDongChang/Controller/YDC_10_TableViewCell.swift; sourceTree = "<group>"; };
+		922F698D20FDFCA000EFE6A9 /* YDC_10_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YDC_10_TableViewCell.xib; path = 20_YunDongChang/Controller/YDC_10_TableViewCell.xib; sourceTree = "<group>"; };
 		9231838C1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_ClubDetail_TableViewController.swift; path = JuLeBu/Controller/JLB_ClubDetail_TableViewController.swift; sourceTree = "<group>"; };
 		9231838E1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_UserList_CollectionViewController.swift; path = 03_MyClub/Controller/JLB_UserList_CollectionViewController.swift; sourceTree = "<group>"; };
 		924D73231F83C39600E74BD0 /* HD_Module_HuoDong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HD_Module_HuoDong.swift; path = HouDong/Module/HD_Module_HuoDong.swift; sourceTree = "<group>"; };
@@ -367,6 +390,8 @@
 		92CB748820F3A8DA00015A62 /* TSAppMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSAppMacro.swift; sourceTree = "<group>"; };
 		92CB748920F3A8DA00015A62 /* TSConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSConfig.swift; sourceTree = "<group>"; };
 		92D2A5A520FCA6CD002A0E4A /* TSChatTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSChatTextCell.xib; sourceTree = "<group>"; };
+		92D2A5A720FD98E0002A0E4A /* SwiftPopMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPopMenu.swift; sourceTree = "<group>"; };
+		92D2A5AC20FD9EB0002A0E4A /* YDC_10_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YDC_10_ViewController.swift; path = 20_YunDongChang/Controller/YDC_10_ViewController.swift; sourceTree = "<group>"; };
 		92DE371E1F447B96007C1CBA /* GlobalValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalValue.swift; sourceTree = "<group>"; };
 		92E4496220F04BBB0045CA96 /* message.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = message.json; sourceTree = "<group>"; };
 		92E4496320F04BBB0045CA96 /* chat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chat.json; sourceTree = "<group>"; };
@@ -620,6 +645,7 @@
 		926505B11F10AF9500362203 /* test02 */ = {
 			isa = PBXGroup;
 			children = (
+				92D2A5A920FD9E58002A0E4A /* 20_YunDongChang */,
 				92FA8D2020FC984700425452 /* old */,
 				92F3105C20DE212400B115D2 /* 10_XXX */,
 				92F3105720DE1FA900B115D2 /* 90_Common */,
@@ -797,9 +823,11 @@
 		92BDB4F920DE2DB600F49C51 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				92FA8D0F20FC7EA100425452 /* Message */,
 				92BDB4F720DE2DB100F49C51 /* XXX_10_ViewController.swift */,
 				92A8BAED20E12D59004245C2 /* XXX_1010_TongXunLuViewController.swift */,
 				92A8BAF720E86538004245C2 /* XXX_101010_AddNewViewController.swift */,
+				92D2A5A720FD98E0002A0E4A /* SwiftPopMenu.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -830,6 +858,36 @@
 			path = Macro;
 			sourceTree = "<group>";
 		};
+		92D2A5A920FD9E58002A0E4A /* 20_YunDongChang */ = {
+			isa = PBXGroup;
+			children = (
+				92D2A5AB20FD9E7D002A0E4A /* Module */,
+				92D2A5AA20FD9E75002A0E4A /* Controller */,
+			);
+			name = 20_YunDongChang;
+			sourceTree = "<group>";
+		};
+		92D2A5AA20FD9E75002A0E4A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92D2A5AC20FD9EB0002A0E4A /* YDC_10_ViewController.swift */,
+				922F698D20FDFCA000EFE6A9 /* YDC_10_TableViewCell.xib */,
+				922F698720FDFB9300EFE6A9 /* YDC_10_TableViewCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		92D2A5AB20FD9E7D002A0E4A /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				922F697220FDB1B000EFE6A9 /* YDC_Model01.swift */,
+				922F698120FDEC3E00EFE6A9 /* YDC_Model02.swift */,
+				922F698320FDEC5000EFE6A9 /* YDC_Model03.swift */,
+				922F698520FDEC6000EFE6A9 /* YDC_Model04.swift */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
 		92E4495B20F04B870045CA96 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -848,6 +906,10 @@
 				92E4496320F04BBB0045CA96 /* chat.json */,
 				92E4496420F04BBB0045CA96 /* contact.json */,
 				92E4496220F04BBB0045CA96 /* message.json */,
+				922F697920FDE2B000EFE6A9 /* ydc1.json */,
+				922F697B20FDEAF700EFE6A9 /* ydc2.json */,
+				922F697D20FDEB1000EFE6A9 /* ydc3.json */,
+				922F697F20FDEB2700EFE6A9 /* ydc4.json */,
 			);
 			name = JSON;
 			sourceTree = "<group>";
@@ -943,7 +1005,6 @@
 			children = (
 				92E4495B20F04B870045CA96 /* Resource */,
 				92E6BBA320F0C4EE00D4C0D8 /* Helpers */,
-				92FA8D0F20FC7EA100425452 /* Message */,
 				92CB746F20F3A74B00015A62 /* General */,
 				92E6BB5120F0B29000D4C0D8 /* CoreModule */,
 				92180A4B20EA543A0091D736 /* Chat */,
@@ -1275,6 +1336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922F698F20FE122300EFE6A9 /* ydc1.json in Resources */,
 				92791E3B20FA14440063B53C /* msgtoolong.wav in Resources */,
 				92791E2720FA13360063B53C /* country_code.txt in Resources */,
 				9278FFD220F247F2006B88C9 /* TSChatImageCell.xib in Resources */,
@@ -1283,6 +1345,7 @@
 				9278FFD120F247F2006B88C9 /* TSChatTimeCell.xib in Resources */,
 				926505BD1F10AF9500362203 /* LaunchScreen.storyboard in Resources */,
 				92E4496720F04BBB0045CA96 /* contact.json in Resources */,
+				922F697E20FDEB1000EFE6A9 /* ydc3.json in Resources */,
 				926505BA1F10AF9500362203 /* Assets.xcassets in Resources */,
 				92791E3520FA14440063B53C /* shake_match.wav in Resources */,
 				92E6BBA120F0BECD00D4C0D8 /* TSChatEmotionCell.xib in Resources */,
@@ -1302,6 +1365,7 @@
 				92E4496520F04BBB0045CA96 /* message.json in Resources */,
 				92791E3C20FA14440063B53C /* shake_nomatch.wav in Resources */,
 				92E6BB9E20F0BECD00D4C0D8 /* TSChatActionBarView.xib in Resources */,
+				922F697C20FDEAF700EFE6A9 /* ydc2.json in Resources */,
 				9278FFD020F247F2006B88C9 /* TSChatVoiceCell.xib in Resources */,
 				92E6BB9920F0BECD00D4C0D8 /* TSChatShareMoreCollectionViewCell.xib in Resources */,
 				92D2A5A620FCA6CE002A0E4A /* TSChatTextCell.xib in Resources */,
@@ -1309,6 +1373,7 @@
 				92791E3E20FA14440063B53C /* call.caf in Resources */,
 				92791E3620FA14440063B53C /* shake_sound_male.wav in Resources */,
 				92FA8D1E20FC7EA200425452 /* TSMessageViewController.xib in Resources */,
+				922F698020FDEB2700EFE6A9 /* ydc4.json in Resources */,
 				92791E3720FA14440063B53C /* beep.wav in Resources */,
 				9278FFCD20F247F2006B88C9 /* TSChatSystemCell.xib in Resources */,
 				926505B81F10AF9500362203 /* Main.storyboard in Resources */,
@@ -1317,6 +1382,7 @@
 				92E4496620F04BBB0045CA96 /* chat.json in Resources */,
 				92A8BAF620E7B19C004245C2 /* Common_TableViewCell.xib in Resources */,
 				92F945CC1F813D4C00CD0638 /* HD_TableViewCell.xib in Resources */,
+				922F698E20FDFCA000EFE6A9 /* YDC_10_TableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1475,6 +1541,7 @@
 				920C77711FADD7A900625060 /* MyClub_Data_Structs.swift in Sources */,
 				92A8BAF520E7B19C004245C2 /* Common_TableViewCell.swift in Sources */,
 				9993263820A3347100C79D5D /* UINaviRootViewController.swift in Sources */,
+				922F698420FDEC5000EFE6A9 /* YDC_Model03.swift in Sources */,
 				92FF785D20F268DB00016975 /* UIViewController+Extension.swift in Sources */,
 				9278FFB520F24752006B88C9 /* AudioDelegate.swift in Sources */,
 				926505B51F10AF9500362203 /* ViewController.swift in Sources */,
@@ -1489,7 +1556,9 @@
 				92E6BB6D20F0B29000D4C0D8 /* HttpManager.swift in Sources */,
 				92FA8D1F20FC7EA200425452 /* TSMessageViewController.swift in Sources */,
 				9256408D1F13BB390024A20F /* HD_ViewController_Main.swift in Sources */,
+				922F697320FDB1B000EFE6A9 /* YDC_Model01.swift in Sources */,
 				92E6BB6720F0B29000D4C0D8 /* TSUploadModel.swift in Sources */,
+				922F698820FDFB9300EFE6A9 /* YDC_10_TableViewCell.swift in Sources */,
 				991CF84C201D986300EB66A7 /* MC_MyClubNewHuoDongController01.swift in Sources */,
 				92A8BAEE20E12D59004245C2 /* XXX_1010_TongXunLuViewController.swift in Sources */,
 				92E6BB6220F0B29000D4C0D8 /* TSApplicationManager.swift in Sources */,
@@ -1527,8 +1596,10 @@
 				92E6BB7920F0B2EC00D4C0D8 /* TSChatViewController+CellEnums.swift in Sources */,
 				92BDB4F820DE2DB100F49C51 /* XXX_10_ViewController.swift in Sources */,
 				92A8BAF820E86538004245C2 /* XXX_101010_AddNewViewController.swift in Sources */,
+				92D2A5AD20FD9EB0002A0E4A /* YDC_10_ViewController.swift in Sources */,
 				9278FFD320F247F2006B88C9 /* TSChatSystemCell.swift in Sources */,
 				9231838F1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift in Sources */,
+				922F698220FDEC3F00EFE6A9 /* YDC_Model02.swift in Sources */,
 				9278FFB220F24752006B88C9 /* TSChatDataManager.swift in Sources */,
 				991A72BF20A1DF1100FD0024 /* LoginViewController.swift in Sources */,
 				92A8BAE420DFD690004245C2 /* objectXXX.swift in Sources */,
@@ -1540,12 +1611,14 @@
 				9278FFCC20F247F2006B88C9 /* TSChatTextCell.swift in Sources */,
 				9278FFCB20F247F2006B88C9 /* TSChatImageCell.swift in Sources */,
 				92FF785820F268DB00016975 /* NSDictionary+Extension.swift in Sources */,
+				92D2A5A820FD98E0002A0E4A /* SwiftPopMenu.swift in Sources */,
 				92E6BB6C20F0B29000D4C0D8 /* HttpManager+UploadImage.swift in Sources */,
 				9278FFAF20F24752006B88C9 /* AudioPlayManager.swift in Sources */,
 				994CAAE02021F703006E9930 /* MC_MyClub_NewHuodong_Form01_ViewController.swift in Sources */,
 				92FA83AA1F543EB30023402F /* JLB_CanJiaZhong.swift in Sources */,
 				9278FFB820F24752006B88C9 /* UITableView+ChatAdditions.swift in Sources */,
 				9256408F1F13BDCC0024A20F /* HD_ViewController_Main_TVC.swift in Sources */,
+				922F697A20FDE2B000EFE6A9 /* ydc1.json in Sources */,
 				9278FFC920F247F2006B88C9 /* TSChatBaseCell.swift in Sources */,
 				92A8BAE920DFDE1A004245C2 /* XXX_Module_Func.swift in Sources */,
 				928FBAB91F61988200B55CFC /* MC_MakeClubViewController.swift in Sources */,
@@ -1560,6 +1633,7 @@
 				92FA83AC1F558AAA0023402F /* JLB_LiaoTian.swift in Sources */,
 				926505B31F10AF9500362203 /* AppDelegate.swift in Sources */,
 				92E6BB9A20F0BECD00D4C0D8 /* TSChatShareMoreCollectionViewCell.swift in Sources */,
+				922F698620FDEC6000EFE6A9 /* YDC_Model04.swift in Sources */,
 				92FA8D1C20FC7EA200425452 /* TSMessageTableViewCell.swift in Sources */,
 				92E6BB6E20F0B29000D4C0D8 /* HttpManager+UploadAudio.swift in Sources */,
 				928FBABE1F641F8400B55CFC /* MC_MakeClubViewController2.swift in Sources */,

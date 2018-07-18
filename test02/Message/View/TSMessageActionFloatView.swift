@@ -12,11 +12,12 @@ import RxSwift
 import Cent
 
 private let kActionViewWidth: CGFloat = 140   //container view width
-private let kActionViewHeight: CGFloat = 190    //container view height
+private let kActionViewHeight: CGFloat = 330    //container view height
 private let kActionButtonHeight: CGFloat = 44   //button height
 private let kFirstButtonY: CGFloat = 12 //the first button Y value
 
 class TSMessageActionFloatView: UIView {
+    weak var delegate2: ActionFloatViewDelegate?
     weak var delegate: ActionFloatViewDelegate?
     let disposeBag = DisposeBag()
 
@@ -41,18 +42,24 @@ class TSMessageActionFloatView: UIView {
             TSAsset.Barbuttonicon_add_cube.image,
             TSAsset.Contacts_add_scan.image,
             TSAsset.Receipt_payment_icon.image,
+            TSAsset.Barbuttonicon_add_cube.image,
+            TSAsset.Contacts_add_scan.image,
+            TSAsset.Receipt_payment_icon.image,
         ]
         
         let actionTitles = [
-            "发起群聊",
-            "添加朋友",
+            "活动",
+            "竞技",
+            "赛事",
+            "场馆",
+            "群",
+            "俱乐部",
             "扫一扫",
-            "收付款",
         ]
         
         //Init containerView
         let containerView : UIView = UIView()
-        containerView.backgroundColor = UIColor.clear
+        containerView.backgroundColor = UIColor.black
         self.addSubview(containerView)
         containerView.snp.makeConstraints { (make) -> Void in
             make.top.equalTo(self.snp.top).offset(3)

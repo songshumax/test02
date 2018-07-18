@@ -1,0 +1,55 @@
+{
+    "message": "",
+    "code": 0,
+    "data": [
+              {
+              "hdid": "000001",
+              "hdtitle": "活动01",
+              "hdimageurl": "http://tp4.sinaimg.cn/2656274875/180/5744017446/1",
+              "hdjl": "1000",
+             "hdtype": "羽毛球",
+              "hddatetime": "20180901"
+              },
+             {
+              "hdid": "000002",
+              "hdtitle": "活动02",
+              "hdimageurl": "http://tp4.sinaimg.cn/2656274875/180/5744017446/1",
+              "hdjl": "1000",
+             "hdtype": "羽毛球",
+              "hddatetime": "20180901"
+              },
+              {
+              "hdid": "000003",
+              "hdtitle": "活动03",
+              "hdimageurl": "http://tp4.sinaimg.cn/2656274875/180/5744017446/1",
+              "hdjl": "1000",
+             "hdtype": "羽毛球",
+              "hddatetime": "20180901"
+              },
+             {
+              "hdid": "000004",
+              "hdtitle": "活动04",
+              "hdimageurl": "http://tp4.sinaimg.cn/2656274875/180/5744017446/1",
+              "hdjl": "1000",
+             "hdtype": "羽毛球",
+              "hddatetime": "20180901"
+              },
+             {
+              "hdid": "000005",
+              "hdtitle": "活动05",
+              "hdimageurl": "http://tp4.sinaimg.cn/2656274875/180/5744017446/1",
+              "hdjl": "1000",
+             "hdtype": "羽毛球",
+              "hddatetime": "20180901"
+              },
+             {
+              "hdid": "000006",
+              "hdtitle": "活动06",
+              "hdimageurl": "http://tp4.sinaimg.cn/2656274875/180/5744017446/1",
+              "hdjl": "1000",
+             "hdtype": "羽毛球",
+              "hddatetime": "20180901"
+              }
+             
+             ]
+}

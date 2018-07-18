@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tzJ-Xx-LXN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tzJ-Xx-LXN">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -32,18 +31,56 @@
         <!--View Controller-->
         <scene sceneID="ROh-ij-Wmn">
             <objects>
-                <viewController id="2OL-in-gGu" sceneMemberID="viewController">
+                <viewController id="2OL-in-gGu" customClass="YDC_10_ViewController" customModule="test02" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nVH-1V-De9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="GmL-ff-ZCF">
+                                <rect key="frame" x="0.0" y="64" width="375" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="7dh-V2-QVD"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="活动"/>
+                                    <segment title="竞技"/>
+                                    <segment title="赛事"/>
+                                    <segment title="场馆"/>
+                                </segments>
+                                <connections>
+                                    <action selector="selectChanged:" destination="2OL-in-gGu" eventType="valueChanged" id="DIi-23-AgR"/>
+                                </connections>
+                            </segmentedControl>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Chv-9i-kIq">
+                                <rect key="frame" x="0.0" y="91" width="375" height="527"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="2OL-in-gGu" id="Jyk-NG-E3o"/>
+                                    <outlet property="delegate" destination="2OL-in-gGu" id="X54-hP-uix"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.7030069256" blue="0.33039197799999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Chv-9i-kIq" firstAttribute="top" secondItem="GmL-ff-ZCF" secondAttribute="bottom" id="L3n-DT-HMj"/>
+                            <constraint firstItem="GmL-ff-ZCF" firstAttribute="trailing" secondItem="gRF-r1-WNz" secondAttribute="trailing" id="QSw-Q4-a1s"/>
+                            <constraint firstItem="gRF-r1-WNz" firstAttribute="trailing" secondItem="Chv-9i-kIq" secondAttribute="trailing" id="UbC-fM-hla"/>
+                            <constraint firstItem="GmL-ff-ZCF" firstAttribute="top" secondItem="gRF-r1-WNz" secondAttribute="top" id="lPE-PJ-qyf"/>
+                            <constraint firstItem="GmL-ff-ZCF" firstAttribute="leading" secondItem="gRF-r1-WNz" secondAttribute="leading" id="qrX-Hy-T84"/>
+                            <constraint firstItem="gRF-r1-WNz" firstAttribute="bottom" secondItem="Chv-9i-kIq" secondAttribute="bottom" id="tDn-A6-2se"/>
+                            <constraint firstItem="Chv-9i-kIq" firstAttribute="leading" secondItem="gRF-r1-WNz" secondAttribute="leading" id="vs5-eB-6FH"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="gRF-r1-WNz"/>
                     </view>
                     <navigationItem key="navigationItem" id="05R-CY-lRw"/>
+                    <connections>
+                        <outlet property="selectChange" destination="GmL-ff-ZCF" id="W2F-vi-JuX"/>
+                        <outlet property="tableview" destination="Chv-9i-kIq" id="zVv-Ve-bCW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Xm-Nv-EEC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2825" y="327"/>
+            <point key="canvasLocation" x="2824.8000000000002" y="326.98650674662673"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hDj-wg-6OW">
