@@ -1,0 +1,135 @@
+{
+    "message": "",
+    "code": 0,
+    "data":
+          [
+            {
+                "sportstypeid" : "01",
+                "sportstypename" : "单人项目",
+                "sportstypedetails" :
+                    [
+                        {
+                            "sportid": "100001",
+                            "sportname": "跑步",
+                         
+                        },
+                        {
+                             "sportid": "100002",
+                             "sportname": "滑雪",
+                     
+                        },
+                        {
+                             "sportid": "100003",
+                             "sportname": "自行车",
+                     
+                         },
+                         {
+                             "sportid": "100004",
+                             "sportname": "健身/瑜伽",
+                     
+                         }
+                    ]
+           },
+           {
+                "sportstypeid" : "02",
+                "sportstypename" : "多人对抗",
+                "sportstypedetails" :
+                    [
+                        {
+                            "sportid": "200001",
+                            "sportname": "羽毛球",
+            
+                        },
+                        {
+                             "sportid": "200002",
+                             "sportname": "网球",
+                     
+                        },
+                        {
+                             "sportid": "200003",
+                             "sportname": "乒乓",
+                     
+                        },
+                        {
+                             "sportid": "200004",
+                             "sportname": "篮球",
+                     
+                        },
+                        {
+                             "sportid": "200005",
+                             "sportname": "足球",
+                     
+                        },
+                        {
+                             "sportid": "200006",
+                             "sportname": "搏击",
+                     
+                        }
+                    ]
+           },
+           {
+               "sportstypeid" : "03",
+               "sportstypename" : "娱乐休闲",
+               "sportstypedetails" :
+                    [
+                        {
+                            "sportid": "300001",
+                            "sportname": "钓鱼",
+            
+                        },
+                        {
+                             "sportid": "300002",
+                             "sportname": "BBQ",
+                     
+                        },
+                        {
+                             "sportid": "300003",
+                             "sportname": "登山",
+                     
+                        },
+                        {
+                             "sportid": "300004",
+                             "sportname": "公园聚会",
+                     
+                        },
+                        {
+                             "sportid": "300005",
+                             "sportname": "露营",
+                     
+                        },
+                        {
+                             "sportid": "300006",
+                             "sportname": "卡拉OK",
+                     
+                        }
+                    ]
+           },
+           {
+               "sportstypeid" : "04",
+               "sportstypename" : "室内休闲",
+               "sportstypedetails" :
+                    [
+                        {
+                            "sportid": "400001",
+                            "sportname": "台球",
+            
+                        },
+                        {
+                             "sportid": "400002",
+                             "sportname": "桌游",
+                     
+                        },
+                        {
+                             "sportid": "400003",
+                             "sportname": "电子",
+                     
+                        },
+                        {
+                             "sportid": "400004",
+                             "sportname": "趣味游戏",
+                     
+                        }
+                    ]
+            }
+         ]
+}

@@ -63,7 +63,7 @@ extension FLLTest5ViewController {
         {
             let label = UILabel()
             label.textAlignment = .center
-            label.backgroundColor = CFTool.color(Int(arc4random()) % 14 + 1)
+            label.backgroundColor = UIColor.blue
             label.text = "\(i)"
             flowLayout.addSubview(label)
             

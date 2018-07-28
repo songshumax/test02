@@ -76,16 +76,31 @@
                     <connections>
                         <outlet property="selectChange" destination="GmL-ff-ZCF" id="W2F-vi-JuX"/>
                         <outlet property="tableview" destination="Chv-9i-kIq" id="zVv-Ve-bCW"/>
+                        <segue destination="EKZ-Az-mem" kind="presentation" identifier="YDC102SetQuery" id="5pw-gm-W5x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Xm-Nv-EEC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2824.8000000000002" y="326.98650674662673"/>
         </scene>
-        <!--View Controller-->
+        <!--Set Query View Controller-->
+        <scene sceneID="Lv7-UE-IM5">
+            <objects>
+                <viewController id="EKZ-Az-mem" customClass="YDC_1010_SetQueryViewController" customModule="test02" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eKM-gB-j5y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="vKe-AV-CyM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zez-gN-WTP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3671" y="327"/>
+        </scene>
+        <!--Collection View Controller-->
         <scene sceneID="hDj-wg-6OW">
             <objects>
-                <viewController id="VqB-DH-uEp" sceneMemberID="viewController">
+                <viewController id="VqB-DH-uEp" customClass="TL_10_CollectionViewController" customModule="test02" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vai-pR-IWI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

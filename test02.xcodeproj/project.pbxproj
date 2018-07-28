@@ -16,6 +16,8 @@
 		920C77711FADD7A900625060 /* MyClub_Data_Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920C77701FADD7A900625060 /* MyClub_Data_Structs.swift */; };
 		92180A5220EA54530091D736 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92180A5120EA54530091D736 /* ChatLogController.swift */; };
 		92180A5420EA58670091D736 /* Common_ChatLogCell01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92180A5320EA58670091D736 /* Common_ChatLogCell01.swift */; };
+		921F3820210059F400C92E46 /* YDC_1010_SetQueryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F381F210059F400C92E46 /* YDC_1010_SetQueryViewController.swift */; };
+		921F382221005B7700C92E46 /* CFTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F382121005B7700C92E46 /* CFTool.swift */; };
 		9222D2D41FA98E540033BD65 /* JLB_Module_Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222D2D31FA98E540033BD65 /* JLB_Module_Club.swift */; };
 		9222D2D61FA98FDD0033BD65 /* JLB_Data_Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222D2D51FA98FDD0033BD65 /* JLB_Data_Structs.swift */; };
 		9222D2D91FA997C20033BD65 /* JLB_CanjiaZhongList_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222D2D81FA997C20033BD65 /* JLB_CanjiaZhongList_Cell.swift */; };
@@ -30,6 +32,10 @@
 		922F698820FDFB9300EFE6A9 /* YDC_10_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922F698720FDFB9300EFE6A9 /* YDC_10_TableViewCell.swift */; };
 		922F698E20FDFCA000EFE6A9 /* YDC_10_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 922F698D20FDFCA000EFE6A9 /* YDC_10_TableViewCell.xib */; };
 		922F698F20FE122300EFE6A9 /* ydc1.json in Resources */ = {isa = PBXBuildFile; fileRef = 922F697920FDE2B000EFE6A9 /* ydc1.json */; };
+		922F699120FECC6700EFE6A9 /* YDC_1010_SetQueryViewController_v10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922F699020FECC6700EFE6A9 /* YDC_1010_SetQueryViewController_v10.swift */; };
+		922F699320FEFDCC00EFE6A9 /* sportstype.json in Resources */ = {isa = PBXBuildFile; fileRef = 922F699220FEFDCB00EFE6A9 /* sportstype.json */; };
+		923126F52101AB5D00E66A4C /* TL_10_CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923126F42101AB5D00E66A4C /* TL_10_CollectionViewController.swift */; };
+		923126F92102E18B00E66A4C /* TL_Common_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923126F82102E18B00E66A4C /* TL_Common_CollectionViewCell.swift */; };
 		9231838D1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231838C1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift */; };
 		9231838F1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231838E1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift */; };
 		924D73241F83C39600E74BD0 /* HD_Module_HuoDong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924D73231F83C39600E74BD0 /* HD_Module_HuoDong.swift */; };
@@ -288,6 +294,8 @@
 		920C77701FADD7A900625060 /* MyClub_Data_Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyClub_Data_Structs.swift; path = 03_MyClub/Data/MyClub_Data_Structs.swift; sourceTree = "<group>"; };
 		92180A5120EA54530091D736 /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChatLogController.swift; path = 90_Common/Chat/ChatLogController.swift; sourceTree = "<group>"; };
 		92180A5320EA58670091D736 /* Common_ChatLogCell01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_ChatLogCell01.swift; path = 90_Common/Class/Common_ChatLogCell01.swift; sourceTree = "<group>"; };
+		921F381F210059F400C92E46 /* YDC_1010_SetQueryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YDC_1010_SetQueryViewController.swift; path = 20_YunDongChang/Controller/YDC_1010_SetQueryViewController.swift; sourceTree = "<group>"; };
+		921F382121005B7700C92E46 /* CFTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CFTool.swift; path = 90_Common/CFTool.swift; sourceTree = "<group>"; };
 		9222D2D31FA98E540033BD65 /* JLB_Module_Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_Module_Club.swift; path = 03_MyClub/Module/JLB_Module_Club.swift; sourceTree = "<group>"; };
 		9222D2D51FA98FDD0033BD65 /* JLB_Data_Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_Data_Structs.swift; path = 03_MyClub/Data/JLB_Data_Structs.swift; sourceTree = "<group>"; };
 		9222D2D81FA997C20033BD65 /* JLB_CanjiaZhongList_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_CanjiaZhongList_Cell.swift; path = Controller/JLB_CanjiaZhongList_Cell.swift; sourceTree = "<group>"; };
@@ -301,6 +309,10 @@
 		922F698520FDEC6000EFE6A9 /* YDC_Model04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YDC_Model04.swift; path = 20_YunDongChang/Module/YDC_Model04.swift; sourceTree = "<group>"; };
 		922F698720FDFB9300EFE6A9 /* YDC_10_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YDC_10_TableViewCell.swift; path = 20_YunDongChang/Controller/YDC_10_TableViewCell.swift; sourceTree = "<group>"; };
 		922F698D20FDFCA000EFE6A9 /* YDC_10_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YDC_10_TableViewCell.xib; path = 20_YunDongChang/Controller/YDC_10_TableViewCell.xib; sourceTree = "<group>"; };
+		922F699020FECC6700EFE6A9 /* YDC_1010_SetQueryViewController_v10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YDC_1010_SetQueryViewController_v10.swift; path = 20_YunDongChang/Controller/YDC_1010_SetQueryViewController_v10.swift; sourceTree = "<group>"; };
+		922F699220FEFDCB00EFE6A9 /* sportstype.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sportstype.json; path = 90_Common/Resource/JSON/sportstype.json; sourceTree = "<group>"; };
+		923126F42101AB5D00E66A4C /* TL_10_CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TL_10_CollectionViewController.swift; path = 30_TimeLine/Controller/TL_10_CollectionViewController.swift; sourceTree = "<group>"; };
+		923126F82102E18B00E66A4C /* TL_Common_CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TL_Common_CollectionViewCell.swift; path = 30_TimeLine/Controller/TL_Common_CollectionViewCell.swift; sourceTree = "<group>"; };
 		9231838C1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_ClubDetail_TableViewController.swift; path = JuLeBu/Controller/JLB_ClubDetail_TableViewController.swift; sourceTree = "<group>"; };
 		9231838E1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_UserList_CollectionViewController.swift; path = 03_MyClub/Controller/JLB_UserList_CollectionViewController.swift; sourceTree = "<group>"; };
 		924D73231F83C39600E74BD0 /* HD_Module_HuoDong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HD_Module_HuoDong.swift; path = HouDong/Module/HD_Module_HuoDong.swift; sourceTree = "<group>"; };
@@ -555,6 +567,31 @@
 			name = Module;
 			sourceTree = "<group>";
 		};
+		923126E821019FA600E66A4C /* 30_TimeLine */ = {
+			isa = PBXGroup;
+			children = (
+				923126EF21019FC200E66A4C /* Controller */,
+				923126EE21019FB700E66A4C /* Module */,
+			);
+			name = 30_TimeLine;
+			sourceTree = "<group>";
+		};
+		923126EE21019FB700E66A4C /* Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+		923126EF21019FC200E66A4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				923126F42101AB5D00E66A4C /* TL_10_CollectionViewController.swift */,
+				923126F82102E18B00E66A4C /* TL_Common_CollectionViewCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		924D73221F83C08E00E74BD0 /* Module */ = {
 			isa = PBXGroup;
 			children = (
@@ -645,6 +682,7 @@
 		926505B11F10AF9500362203 /* test02 */ = {
 			isa = PBXGroup;
 			children = (
+				923126E821019FA600E66A4C /* 30_TimeLine */,
 				92D2A5A920FD9E58002A0E4A /* 20_YunDongChang */,
 				92FA8D2020FC984700425452 /* old */,
 				92F3105C20DE212400B115D2 /* 10_XXX */,
@@ -873,6 +911,8 @@
 				92D2A5AC20FD9EB0002A0E4A /* YDC_10_ViewController.swift */,
 				922F698D20FDFCA000EFE6A9 /* YDC_10_TableViewCell.xib */,
 				922F698720FDFB9300EFE6A9 /* YDC_10_TableViewCell.swift */,
+				922F699020FECC6700EFE6A9 /* YDC_1010_SetQueryViewController_v10.swift */,
+				921F381F210059F400C92E46 /* YDC_1010_SetQueryViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -910,6 +950,7 @@
 				922F697B20FDEAF700EFE6A9 /* ydc2.json */,
 				922F697D20FDEB1000EFE6A9 /* ydc3.json */,
 				922F697F20FDEB2700EFE6A9 /* ydc4.json */,
+				922F699220FEFDCB00EFE6A9 /* sportstype.json */,
 			);
 			name = JSON;
 			sourceTree = "<group>";
@@ -1003,6 +1044,7 @@
 		92F3105720DE1FA900B115D2 /* 90_Common */ = {
 			isa = PBXGroup;
 			children = (
+				921F382121005B7700C92E46 /* CFTool.swift */,
 				92E4495B20F04B870045CA96 /* Resource */,
 				92E6BBA320F0C4EE00D4C0D8 /* Helpers */,
 				92CB746F20F3A74B00015A62 /* General */,
@@ -1372,6 +1414,7 @@
 				9270239520F9EFA500523C24 /* Expression.bundle in Resources */,
 				92791E3E20FA14440063B53C /* call.caf in Resources */,
 				92791E3620FA14440063B53C /* shake_sound_male.wav in Resources */,
+				922F699320FEFDCC00EFE6A9 /* sportstype.json in Resources */,
 				92FA8D1E20FC7EA200425452 /* TSMessageViewController.xib in Resources */,
 				922F698020FDEB2700EFE6A9 /* ydc4.json in Resources */,
 				92791E3720FA14440063B53C /* beep.wav in Resources */,
@@ -1539,6 +1582,7 @@
 				92CB748020F3A74C00015A62 /* TSImagePicker.swift in Sources */,
 				9278FFCE20F247F2006B88C9 /* TSChatCellDelegate.swift in Sources */,
 				920C77711FADD7A900625060 /* MyClub_Data_Structs.swift in Sources */,
+				923126F92102E18B00E66A4C /* TL_Common_CollectionViewCell.swift in Sources */,
 				92A8BAF520E7B19C004245C2 /* Common_TableViewCell.swift in Sources */,
 				9993263820A3347100C79D5D /* UINaviRootViewController.swift in Sources */,
 				922F698420FDEC5000EFE6A9 /* YDC_Model03.swift in Sources */,
@@ -1631,8 +1675,10 @@
 				928A41BB1F16732F009F5368 /* HD_ViewController_Main_TVC_Header.swift in Sources */,
 				927A4D9920CBB31700F0D20E /* CollectionViewCell.swift in Sources */,
 				92FA83AC1F558AAA0023402F /* JLB_LiaoTian.swift in Sources */,
+				921F3820210059F400C92E46 /* YDC_1010_SetQueryViewController.swift in Sources */,
 				926505B31F10AF9500362203 /* AppDelegate.swift in Sources */,
 				92E6BB9A20F0BECD00D4C0D8 /* TSChatShareMoreCollectionViewCell.swift in Sources */,
+				922F699120FECC6700EFE6A9 /* YDC_1010_SetQueryViewController_v10.swift in Sources */,
 				922F698620FDEC6000EFE6A9 /* YDC_Model04.swift in Sources */,
 				92FA8D1C20FC7EA200425452 /* TSMessageTableViewCell.swift in Sources */,
 				92E6BB6E20F0B29000D4C0D8 /* HttpManager+UploadAudio.swift in Sources */,
@@ -1643,8 +1689,10 @@
 				92F945C81F811C9100CD0638 /* HD_TableViewController_weicanjia.swift in Sources */,
 				92CB748420F3A74C00015A62 /* TSNavigationBar.swift in Sources */,
 				9278FFCA20F247F2006B88C9 /* TSChatTimeCell.swift in Sources */,
+				921F382221005B7700C92E46 /* CFTool.swift in Sources */,
 				92FF785B20F268DB00016975 /* PHAsset+Extension.swift in Sources */,
 				92E6BB7A20F0B2EC00D4C0D8 /* TSChatViewController+Subviews.swift in Sources */,
+				923126F52101AB5D00E66A4C /* TL_10_CollectionViewController.swift in Sources */,
 				92E6BB6520F0B29000D4C0D8 /* TSChatSubModel.swift in Sources */,
 				92CB748B20F3A8DA00015A62 /* TSConfig.swift in Sources */,
 				92180A5220EA54530091D736 /* ChatLogController.swift in Sources */,

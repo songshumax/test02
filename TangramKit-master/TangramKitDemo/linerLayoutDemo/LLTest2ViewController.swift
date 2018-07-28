@@ -179,18 +179,21 @@ extension LLTest2ViewController
         
         let nameLayout = TGLinearLayout(.vert)
         nameLayout.tg_leading.equal(10)
+        nameLayout.tg_padding = UIEdgeInsets(top: 5, left: 5, bottom: 5, right: 5)
         nameLayout.tg_width.equal(.fill)
         nameLayout.tg_height.equal(.wrap)
+        nameLayout.layer.backgroundColor = UIColor.brown.cgColor
         userInfoLayout.addSubview(nameLayout)
         
         let userNameLabel = UILabel()
-        userNameLabel.text = NSLocalizedString("Name:欧阳大哥", comment:"")
+        userNameLabel.text = NSLocalizedString("Name:欧阳大哥呃呃呃鹅鹅鹅鹅鹅鹅饿鹅鹅鹅鹅饿鹅鹅鹅鹅饿鹅鹅鹅鹅饿鹅鹅鹅鹅饿1232434", comment:"")
         userNameLabel.font = CFTool.font(15);
+//        userNameLabel.tg_top =
         userNameLabel.sizeToFit()
         nameLayout.addSubview(userNameLabel)
         
         let nickNameLabel = UILabel()
-        nickNameLabel.text  = NSLocalizedString("Nickname:醉里挑灯看键", comment:"")
+        nickNameLabel.text  = NSLocalizedString("Nickname:醉里挑灯看键Nickname:醉里挑灯看键Nickname:醉里挑灯看键", comment:"")
         nickNameLabel.textColor = CFTool.color(4)
         nickNameLabel.font = CFTool.font(14);
         nickNameLabel.sizeToFit()
@@ -274,7 +277,7 @@ extension LLTest2ViewController
             ageLabel.layer.cornerRadius = 15
             ageLabel.layer.borderColor = CFTool.color(3).cgColor
             ageLabel.layer.borderWidth = 0.5
-            ageLabel.font = CFTool.font(13)
+//            ageLabel.font = CFTool.font(13)
             ageLabel.tg_height.equal(30)
             ageLabel.tg_width.equal(.average)  //这里面每个子视图的宽度来平均分配父视图的宽度。这样里面所有子视图的宽度都相等。
             ageSelectLayout.addSubview(ageLabel)

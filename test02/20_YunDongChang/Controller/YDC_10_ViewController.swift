@@ -181,7 +181,7 @@ class YDC_10_ViewController: UIViewController,UITableViewDelegate,UITableViewDat
     
     @objc func btnitemleft(sender:UIButton?){
         print("这里是条件设定")
-        self.performSegue(withIdentifier: "XXX2TongXunLu", sender: nil)
+        self.performSegue(withIdentifier: "YDC102SetQuery", sender: nil)
     }
     
     @objc func btnitemright(sender:UIButton?){
