@@ -36,6 +36,7 @@
 		922F699320FEFDCC00EFE6A9 /* sportstype.json in Resources */ = {isa = PBXBuildFile; fileRef = 922F699220FEFDCB00EFE6A9 /* sportstype.json */; };
 		923126F52101AB5D00E66A4C /* TL_10_CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923126F42101AB5D00E66A4C /* TL_10_CollectionViewController.swift */; };
 		923126F92102E18B00E66A4C /* TL_Common_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923126F82102E18B00E66A4C /* TL_Common_CollectionViewCell.swift */; };
+		923126FB210C4C9300E66A4C /* Common_Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923126FA210C4C9300E66A4C /* Common_Constraints.swift */; };
 		9231838D1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231838C1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift */; };
 		9231838F1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231838E1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift */; };
 		924D73241F83C39600E74BD0 /* HD_Module_HuoDong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924D73231F83C39600E74BD0 /* HD_Module_HuoDong.swift */; };
@@ -49,6 +50,8 @@
 		926505BD1F10AF9500362203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926505BB1F10AF9500362203 /* LaunchScreen.storyboard */; };
 		926505C81F10AF9500362203 /* test02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926505C71F10AF9500362203 /* test02Tests.swift */; };
 		926505D31F10AF9500362203 /* test02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926505D21F10AF9500362203 /* test02UITests.swift */; };
+		926EBD20210D789F000C38A6 /* TL_Module01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD1F210D789F000C38A6 /* TL_Module01.swift */; };
+		926EBD27210D7B92000C38A6 /* tl01.json in Resources */ = {isa = PBXBuildFile; fileRef = 926EBD26210D7B92000C38A6 /* tl01.json */; };
 		926F66221F96BFD30053A8C9 /* HD_CollectionViewCell_HuoDongZhongLei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926F66211F96BFD30053A8C9 /* HD_CollectionViewCell_HuoDongZhongLei.swift */; };
 		9270239320F9EE0800523C24 /* Expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9270238D20F9EE0700523C24 /* Expression.plist */; };
 		9270239520F9EFA500523C24 /* Expression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9270239420F9EFA400523C24 /* Expression.bundle */; };
@@ -313,6 +316,7 @@
 		922F699220FEFDCB00EFE6A9 /* sportstype.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sportstype.json; path = 90_Common/Resource/JSON/sportstype.json; sourceTree = "<group>"; };
 		923126F42101AB5D00E66A4C /* TL_10_CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TL_10_CollectionViewController.swift; path = 30_TimeLine/Controller/TL_10_CollectionViewController.swift; sourceTree = "<group>"; };
 		923126F82102E18B00E66A4C /* TL_Common_CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TL_Common_CollectionViewCell.swift; path = 30_TimeLine/Controller/TL_Common_CollectionViewCell.swift; sourceTree = "<group>"; };
+		923126FA210C4C9300E66A4C /* Common_Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_Constraints.swift; path = 90_Common/Common_Constraints.swift; sourceTree = "<group>"; };
 		9231838C1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_ClubDetail_TableViewController.swift; path = JuLeBu/Controller/JLB_ClubDetail_TableViewController.swift; sourceTree = "<group>"; };
 		9231838E1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_UserList_CollectionViewController.swift; path = 03_MyClub/Controller/JLB_UserList_CollectionViewController.swift; sourceTree = "<group>"; };
 		924D73231F83C39600E74BD0 /* HD_Module_HuoDong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HD_Module_HuoDong.swift; path = HouDong/Module/HD_Module_HuoDong.swift; sourceTree = "<group>"; };
@@ -333,6 +337,8 @@
 		926505CE1F10AF9500362203 /* test02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		926505D21F10AF9500362203 /* test02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test02UITests.swift; sourceTree = "<group>"; };
 		926505D41F10AF9500362203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926EBD1F210D789F000C38A6 /* TL_Module01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TL_Module01.swift; path = 30_TimeLine/Module/TL_Module01.swift; sourceTree = "<group>"; };
+		926EBD26210D7B92000C38A6 /* tl01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tl01.json; path = 90_Common/Resource/JSON/tl01.json; sourceTree = "<group>"; };
 		926F66211F96BFD30053A8C9 /* HD_CollectionViewCell_HuoDongZhongLei.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HD_CollectionViewCell_HuoDongZhongLei.swift; path = HouDong/Controller/HD_CollectionViewCell_HuoDongZhongLei.swift; sourceTree = "<group>"; };
 		9270238D20F9EE0700523C24 /* Expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expression.plist; sourceTree = "<group>"; };
 		9270239420F9EFA400523C24 /* Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Expression.bundle; sourceTree = "<group>"; };
@@ -579,6 +585,7 @@
 		923126EE21019FB700E66A4C /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				926EBD1F210D789F000C38A6 /* TL_Module01.swift */,
 			);
 			name = Module;
 			sourceTree = "<group>";
@@ -950,6 +957,7 @@
 				922F697B20FDEAF700EFE6A9 /* ydc2.json */,
 				922F697D20FDEB1000EFE6A9 /* ydc3.json */,
 				922F697F20FDEB2700EFE6A9 /* ydc4.json */,
+				926EBD26210D7B92000C38A6 /* tl01.json */,
 				922F699220FEFDCB00EFE6A9 /* sportstype.json */,
 			);
 			name = JSON;
@@ -1056,6 +1064,7 @@
 				92180A5320EA58670091D736 /* Common_ChatLogCell01.swift */,
 				92A8BAF320E7B19C004245C2 /* Common_TableViewCell.swift */,
 				92A8BAF420E7B19C004245C2 /* Common_TableViewCell.xib */,
+				923126FA210C4C9300E66A4C /* Common_Constraints.swift */,
 			);
 			name = 90_Common;
 			sourceTree = "<group>";
@@ -1418,6 +1427,7 @@
 				92FA8D1E20FC7EA200425452 /* TSMessageViewController.xib in Resources */,
 				922F698020FDEB2700EFE6A9 /* ydc4.json in Resources */,
 				92791E3720FA14440063B53C /* beep.wav in Resources */,
+				926EBD27210D7B92000C38A6 /* tl01.json in Resources */,
 				9278FFCD20F247F2006B88C9 /* TSChatSystemCell.xib in Resources */,
 				926505B81F10AF9500362203 /* Main.storyboard in Resources */,
 				92E6BBA020F0BECD00D4C0D8 /* TSChatShareMoreView.xib in Resources */,
@@ -1575,6 +1585,7 @@
 				920653B91F45EB6100B5AF6F /* HD_FindResult_Main_TVC.swift in Sources */,
 				99976E5A203A717500811A48 /* MC_MapCustom02View.swift in Sources */,
 				924D73241F83C39600E74BD0 /* HD_Module_HuoDong.swift in Sources */,
+				926EBD20210D789F000C38A6 /* TL_Module01.swift in Sources */,
 				99976E5C203AE55300811A48 /* MC_MapCustom03ViewController.swift in Sources */,
 				9278FFB120F24752006B88C9 /* TSChatEmojiDictionary.swift in Sources */,
 				9278FFB320F24752006B88C9 /* UIScrollView+ChatAdditions.swift in Sources */,
@@ -1596,6 +1607,7 @@
 				9278FFB720F24752006B88C9 /* AudioRecordManager.swift in Sources */,
 				9985750420BC1CB200203F91 /* RootViewController.swift in Sources */,
 				92E6BB6420F0B29000D4C0D8 /* TSContactModel.swift in Sources */,
+				923126FB210C4C9300E66A4C /* Common_Constraints.swift in Sources */,
 				9222D2D41FA98E540033BD65 /* JLB_Module_Club.swift in Sources */,
 				92E6BB6D20F0B29000D4C0D8 /* HttpManager.swift in Sources */,
 				92FA8D1F20FC7EA200425452 /* TSMessageViewController.swift in Sources */,

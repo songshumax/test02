@@ -104,10 +104,45 @@
                     <view key="view" contentMode="scaleToFill" id="Vai-pR-IWI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="PZV-Wn-Ghy">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="vfF-dx-39F">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="cHN-zl-lS9">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="VqB-DH-uEp" id="MQC-k0-PJV"/>
+                                    <outlet property="delegate" destination="VqB-DH-uEp" id="6wa-wC-9vJ"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" red="0.78929346799850464" green="0.94903808832168579" blue="0.94406002759933472" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="P33-wT-IR0" firstAttribute="trailing" secondItem="PZV-Wn-Ghy" secondAttribute="trailing" id="RD4-3i-AUo"/>
+                            <constraint firstItem="PZV-Wn-Ghy" firstAttribute="leading" secondItem="P33-wT-IR0" secondAttribute="leading" id="dHJ-ZX-lqZ"/>
+                            <constraint firstItem="PZV-Wn-Ghy" firstAttribute="top" secondItem="P33-wT-IR0" secondAttribute="top" id="hr4-Gv-Ut2"/>
+                            <constraint firstItem="P33-wT-IR0" firstAttribute="bottom" secondItem="PZV-Wn-Ghy" secondAttribute="bottom" id="oww-5i-wV4"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="P33-wT-IR0"/>
                     </view>
                     <navigationItem key="navigationItem" id="AeQ-GV-xoZ"/>
+                    <connections>
+                        <outlet property="collectionView" destination="PZV-Wn-Ghy" id="ove-80-KhE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nyl-Z2-uo4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
