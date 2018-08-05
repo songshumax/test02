@@ -56,6 +56,7 @@
 		926EBD2E21154080000C38A6 /* Common_MenuBar_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD2D21154080000C38A6 /* Common_MenuBar_01.swift */; };
 		926EBD302116846A000C38A6 /* Common_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD2F21168469000C38A6 /* Common_UIView.swift */; };
 		926EBD322116CDFB000C38A6 /* Common_Cell02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD312116CDFB000C38A6 /* Common_Cell02.swift */; };
+		926EBD342116E3DA000C38A6 /* Ser_10_MainController_bak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD332116E3DA000C38A6 /* Ser_10_MainController_bak.swift */; };
 		926F66221F96BFD30053A8C9 /* HD_CollectionViewCell_HuoDongZhongLei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926F66211F96BFD30053A8C9 /* HD_CollectionViewCell_HuoDongZhongLei.swift */; };
 		9270239320F9EE0800523C24 /* Expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9270238D20F9EE0700523C24 /* Expression.plist */; };
 		9270239520F9EFA500523C24 /* Expression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9270239420F9EFA400523C24 /* Expression.bundle */; };
@@ -347,6 +348,7 @@
 		926EBD2D21154080000C38A6 /* Common_MenuBar_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_MenuBar_01.swift; path = 90_Common/Common_MenuBar_01.swift; sourceTree = "<group>"; };
 		926EBD2F21168469000C38A6 /* Common_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_UIView.swift; path = 90_Common/Common_UIView.swift; sourceTree = "<group>"; };
 		926EBD312116CDFB000C38A6 /* Common_Cell02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common_Cell02.swift; path = 90_Common/Common_Cell02.swift; sourceTree = "<group>"; };
+		926EBD332116E3DA000C38A6 /* Ser_10_MainController_bak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ser_10_MainController_bak.swift; path = 40_Service/Controller/Ser_10_MainController_bak.swift; sourceTree = "<group>"; };
 		926F66211F96BFD30053A8C9 /* HD_CollectionViewCell_HuoDongZhongLei.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HD_CollectionViewCell_HuoDongZhongLei.swift; path = HouDong/Controller/HD_CollectionViewCell_HuoDongZhongLei.swift; sourceTree = "<group>"; };
 		9270238D20F9EE0700523C24 /* Expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expression.plist; sourceTree = "<group>"; };
 		9270239420F9EFA400523C24 /* Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Expression.bundle; sourceTree = "<group>"; };
@@ -750,6 +752,7 @@
 			isa = PBXGroup;
 			children = (
 				926EBD2B211536D0000C38A6 /* Ser_10_MainController.swift */,
+				926EBD332116E3DA000C38A6 /* Ser_10_MainController_bak.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -1688,6 +1691,7 @@
 				920653BB1F472E4900B5AF6F /* HD_Detailed_MainViewController.swift in Sources */,
 				9278FFB620F24752006B88C9 /* ImageFilesManager.swift in Sources */,
 				9222D2D91FA997C20033BD65 /* JLB_CanjiaZhongList_Cell.swift in Sources */,
+				926EBD342116E3DA000C38A6 /* Ser_10_MainController_bak.swift in Sources */,
 				92E6BB7920F0B2EC00D4C0D8 /* TSChatViewController+CellEnums.swift in Sources */,
 				92BDB4F820DE2DB100F49C51 /* XXX_10_ViewController.swift in Sources */,
 				92A8BAF820E86538004245C2 /* XXX_101010_AddNewViewController.swift in Sources */,
