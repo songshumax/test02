@@ -52,6 +52,10 @@
 		926505D31F10AF9500362203 /* test02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926505D21F10AF9500362203 /* test02UITests.swift */; };
 		926EBD20210D789F000C38A6 /* TL_Module01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD1F210D789F000C38A6 /* TL_Module01.swift */; };
 		926EBD27210D7B92000C38A6 /* tl01.json in Resources */ = {isa = PBXBuildFile; fileRef = 926EBD26210D7B92000C38A6 /* tl01.json */; };
+		926EBD2C211536D1000C38A6 /* Ser_10_MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD2B211536D0000C38A6 /* Ser_10_MainController.swift */; };
+		926EBD2E21154080000C38A6 /* Common_MenuBar_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD2D21154080000C38A6 /* Common_MenuBar_01.swift */; };
+		926EBD302116846A000C38A6 /* Common_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD2F21168469000C38A6 /* Common_UIView.swift */; };
+		926EBD322116CDFB000C38A6 /* Common_Cell02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD312116CDFB000C38A6 /* Common_Cell02.swift */; };
 		926F66221F96BFD30053A8C9 /* HD_CollectionViewCell_HuoDongZhongLei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926F66211F96BFD30053A8C9 /* HD_CollectionViewCell_HuoDongZhongLei.swift */; };
 		9270239320F9EE0800523C24 /* Expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9270238D20F9EE0700523C24 /* Expression.plist */; };
 		9270239520F9EFA500523C24 /* Expression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9270239420F9EFA400523C24 /* Expression.bundle */; };
@@ -339,6 +343,10 @@
 		926505D41F10AF9500362203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		926EBD1F210D789F000C38A6 /* TL_Module01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TL_Module01.swift; path = 30_TimeLine/Module/TL_Module01.swift; sourceTree = "<group>"; };
 		926EBD26210D7B92000C38A6 /* tl01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tl01.json; path = 90_Common/Resource/JSON/tl01.json; sourceTree = "<group>"; };
+		926EBD2B211536D0000C38A6 /* Ser_10_MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Ser_10_MainController.swift; path = 40_Service/Controller/Ser_10_MainController.swift; sourceTree = "<group>"; };
+		926EBD2D21154080000C38A6 /* Common_MenuBar_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_MenuBar_01.swift; path = 90_Common/Common_MenuBar_01.swift; sourceTree = "<group>"; };
+		926EBD2F21168469000C38A6 /* Common_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_UIView.swift; path = 90_Common/Common_UIView.swift; sourceTree = "<group>"; };
+		926EBD312116CDFB000C38A6 /* Common_Cell02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common_Cell02.swift; path = 90_Common/Common_Cell02.swift; sourceTree = "<group>"; };
 		926F66211F96BFD30053A8C9 /* HD_CollectionViewCell_HuoDongZhongLei.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HD_CollectionViewCell_HuoDongZhongLei.swift; path = HouDong/Controller/HD_CollectionViewCell_HuoDongZhongLei.swift; sourceTree = "<group>"; };
 		9270238D20F9EE0700523C24 /* Expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expression.plist; sourceTree = "<group>"; };
 		9270239420F9EFA400523C24 /* Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Expression.bundle; sourceTree = "<group>"; };
@@ -689,6 +697,7 @@
 		926505B11F10AF9500362203 /* test02 */ = {
 			isa = PBXGroup;
 			children = (
+				926EBD2821153663000C38A6 /* 40_Service */,
 				923126E821019FA600E66A4C /* 30_TimeLine */,
 				92D2A5A920FD9E58002A0E4A /* 20_YunDongChang */,
 				92FA8D2020FC984700425452 /* old */,
@@ -726,6 +735,30 @@
 				926505D41F10AF9500362203 /* Info.plist */,
 			);
 			path = test02UITests;
+			sourceTree = "<group>";
+		};
+		926EBD2821153663000C38A6 /* 40_Service */ = {
+			isa = PBXGroup;
+			children = (
+				926EBD2A21153686000C38A6 /* Module */,
+				926EBD292115367C000C38A6 /* Controller */,
+			);
+			name = 40_Service;
+			sourceTree = "<group>";
+		};
+		926EBD292115367C000C38A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				926EBD2B211536D0000C38A6 /* Ser_10_MainController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		926EBD2A21153686000C38A6 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Module;
 			sourceTree = "<group>";
 		};
 		9278FFA220F24752006B88C9 /* ChatHelper */ = {
@@ -1061,10 +1094,13 @@
 				92A8BADD20DFD679004245C2 /* Class */,
 				92F3105A20DE201D00B115D2 /* Common_Cell01.xib */,
 				92BDB4F420DE273A00F49C51 /* Common_Cell01_CollectionView.swift */,
+				926EBD312116CDFB000C38A6 /* Common_Cell02.swift */,
 				92180A5320EA58670091D736 /* Common_ChatLogCell01.swift */,
 				92A8BAF320E7B19C004245C2 /* Common_TableViewCell.swift */,
 				92A8BAF420E7B19C004245C2 /* Common_TableViewCell.xib */,
 				923126FA210C4C9300E66A4C /* Common_Constraints.swift */,
+				926EBD2D21154080000C38A6 /* Common_MenuBar_01.swift */,
+				926EBD2F21168469000C38A6 /* Common_UIView.swift */,
 			);
 			name = 90_Common;
 			sourceTree = "<group>";
@@ -1582,7 +1618,9 @@
 				924D73261F83C45A00E74BD0 /* HD_Data_Structs.swift in Sources */,
 				92CB748520F3A74C00015A62 /* TSProgressHUD.swift in Sources */,
 				92E6BB6920F0B29000D4C0D8 /* TSModel.swift in Sources */,
+				926EBD302116846A000C38A6 /* Common_UIView.swift in Sources */,
 				920653B91F45EB6100B5AF6F /* HD_FindResult_Main_TVC.swift in Sources */,
+				926EBD322116CDFB000C38A6 /* Common_Cell02.swift in Sources */,
 				99976E5A203A717500811A48 /* MC_MapCustom02View.swift in Sources */,
 				924D73241F83C39600E74BD0 /* HD_Module_HuoDong.swift in Sources */,
 				926EBD20210D789F000C38A6 /* TL_Module01.swift in Sources */,
@@ -1590,6 +1628,7 @@
 				9278FFB120F24752006B88C9 /* TSChatEmojiDictionary.swift in Sources */,
 				9278FFB320F24752006B88C9 /* UIScrollView+ChatAdditions.swift in Sources */,
 				92E6BBB520F0C4EE00D4C0D8 /* NSDate+Extension.swift in Sources */,
+				926EBD2E21154080000C38A6 /* Common_MenuBar_01.swift in Sources */,
 				92CB748020F3A74C00015A62 /* TSImagePicker.swift in Sources */,
 				9278FFCE20F247F2006B88C9 /* TSChatCellDelegate.swift in Sources */,
 				920C77711FADD7A900625060 /* MyClub_Data_Structs.swift in Sources */,
@@ -1707,6 +1746,7 @@
 				923126F52101AB5D00E66A4C /* TL_10_CollectionViewController.swift in Sources */,
 				92E6BB6520F0B29000D4C0D8 /* TSChatSubModel.swift in Sources */,
 				92CB748B20F3A8DA00015A62 /* TSConfig.swift in Sources */,
+				926EBD2C211536D1000C38A6 /* Ser_10_MainController.swift in Sources */,
 				92180A5220EA54530091D736 /* ChatLogController.swift in Sources */,
 				928FBAC01F681CE700B55CFC /* MC_MyClubViewController.swift in Sources */,
 				92E6BB8020F0B2EC00D4C0D8 /* TSChatViewController.swift in Sources */,

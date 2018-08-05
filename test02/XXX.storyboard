@@ -148,10 +148,10 @@
             </objects>
             <point key="canvasLocation" x="2825" y="1051"/>
         </scene>
-        <!--View Controller-->
+        <!--Ser10 Main Controller-->
         <scene sceneID="F0H-ia-id7">
             <objects>
-                <viewController id="wmW-wg-ibf" sceneMemberID="viewController">
+                <viewController id="wmW-wg-ibf" customClass="Ser_10_MainController" customModule="test02" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mjR-ZB-XAj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -162,7 +162,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Lq-HF-a1C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2825" y="1777"/>
+            <point key="canvasLocation" x="2824.8000000000002" y="1776.1619190404799"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="WEP-iw-bWg">
