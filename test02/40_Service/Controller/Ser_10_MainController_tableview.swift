@@ -11,7 +11,7 @@
 import Foundation
 import UIKit
 
-class Ser_10_MainController : UIViewController, UITableViewDelegate,UITableViewDataSource{
+class Ser_10_MainController_tableview : UIViewController, UITableViewDelegate,UITableViewDataSource{
 //class Ser_10_MainController : UIViewController {
 
     @IBOutlet weak var menubar: Common_MenuBar_01!
@@ -67,9 +67,7 @@ class Ser_10_MainController : UIViewController, UITableViewDelegate,UITableViewD
     func setupTableView() {
         table.dataSource = self
         table.delegate = self
-//        table.register(UITableViewCell.self, forCellReuseIdentifier: cellID)
-//        table.register(UINib(nibName: "Common_Cell04", bundle: nil), forCellReuseIdentifier: cellID)
-        
+        table.register(UITableViewCell.self, forCellReuseIdentifier: cellID)
         
     }
     
@@ -103,30 +101,25 @@ class Ser_10_MainController : UIViewController, UITableViewDelegate,UITableViewD
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = Bundle.main.loadNibNamed("Common_Cell04", owner: table, options: nil)?.first() as! Common_Cell04
-//tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath) as! Common_Cell04
-        cell.bbimage.image = UIImage(named: "001")
-        cell.bbname.text = "滑雪板  8成新"
-        cell.describelable.text = "只用过3次"
-        cell.valuelable.text = "20000日元   东京交易"
-//        cell.imageView?.image = UIImage(named: "001")
-//        cell.textLabel?.text = "卖出物品"
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath)
+        cell.imageView?.image = UIImage(named: "001")
+        cell.textLabel?.text = "卖出物品"
+        
         return cell
-    }
-
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{
-        return 110
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("ddd2")
         self.performSegue(withIdentifier: "SerToSale01", sender: nil)
-        
-//        let viewController = TSChatViewController.ts_initFromNib() as! TSChatViewController
-//        viewController.messageModel = self.itemDataSouce[indexPath.row]
-//                navigationController?.pushViewController(viewController, animated: true)
-//        self.ts_pushAndHideTabbar(viewController)
-        
     }
+    
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        print("ddd3")
+    }
+    
+    
+
+    
+    
     
 }

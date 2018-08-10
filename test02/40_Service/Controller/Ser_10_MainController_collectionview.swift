@@ -11,7 +11,7 @@
 import Foundation
 import UIKit
 
-class Ser_10_MainController_bak : UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
+class Ser_10_MainController_collectionview : UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
 //class Ser_10_MainController : UIViewController {
 
     let menuItem : Common_MenuBar_01 = {

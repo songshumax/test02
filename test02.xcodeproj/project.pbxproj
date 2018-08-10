@@ -52,11 +52,15 @@
 		926505D31F10AF9500362203 /* test02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926505D21F10AF9500362203 /* test02UITests.swift */; };
 		926EBD20210D789F000C38A6 /* TL_Module01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD1F210D789F000C38A6 /* TL_Module01.swift */; };
 		926EBD27210D7B92000C38A6 /* tl01.json in Resources */ = {isa = PBXBuildFile; fileRef = 926EBD26210D7B92000C38A6 /* tl01.json */; };
-		926EBD2C211536D1000C38A6 /* Ser_10_MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD2B211536D0000C38A6 /* Ser_10_MainController.swift */; };
+		926EBD2C211536D1000C38A6 /* Ser_10_MainController_tableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD2B211536D0000C38A6 /* Ser_10_MainController_tableview.swift */; };
 		926EBD2E21154080000C38A6 /* Common_MenuBar_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD2D21154080000C38A6 /* Common_MenuBar_01.swift */; };
 		926EBD302116846A000C38A6 /* Common_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD2F21168469000C38A6 /* Common_UIView.swift */; };
 		926EBD322116CDFB000C38A6 /* Common_Cell02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD312116CDFB000C38A6 /* Common_Cell02.swift */; };
-		926EBD342116E3DA000C38A6 /* Ser_10_MainController_bak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD332116E3DA000C38A6 /* Ser_10_MainController_bak.swift */; };
+		926EBD342116E3DA000C38A6 /* Ser_10_MainController_collectionview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD332116E3DA000C38A6 /* Ser_10_MainController_collectionview.swift */; };
+		926EBD362117BE19000C38A6 /* Common_Cell03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD352117BE19000C38A6 /* Common_Cell03.swift */; };
+		926EBD39211B2BF8000C38A6 /* Common_Cell04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD37211B2BF8000C38A6 /* Common_Cell04.swift */; };
+		926EBD3A211B2BF8000C38A6 /* Common_Cell04.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926EBD38211B2BF8000C38A6 /* Common_Cell04.xib */; };
+		926EBD3C211B2E66000C38A6 /* Ser_10_MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EBD3B211B2E66000C38A6 /* Ser_10_MainController.swift */; };
 		926F66221F96BFD30053A8C9 /* HD_CollectionViewCell_HuoDongZhongLei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926F66211F96BFD30053A8C9 /* HD_CollectionViewCell_HuoDongZhongLei.swift */; };
 		9270239320F9EE0800523C24 /* Expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9270238D20F9EE0700523C24 /* Expression.plist */; };
 		9270239520F9EFA500523C24 /* Expression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9270239420F9EFA400523C24 /* Expression.bundle */; };
@@ -98,6 +102,7 @@
 		92791E4020FA14440063B53C /* sendmsg.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92791E3420FA14440063B53C /* sendmsg.caf */; };
 		927A4D9920CBB31700F0D20E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A4D9720CBB31700F0D20E /* CollectionViewCell.swift */; };
 		927A4D9A20CBB31700F0D20E /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 927A4D9820CBB31700F0D20E /* CollectionViewCell.xib */; };
+		927C35D5211DE27200E7CA88 /* Ser_1010_checkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927C35D4211DE27200E7CA88 /* Ser_1010_checkDetail.swift */; };
 		928A41B91F151FB7009F5368 /* HD_Main_Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928A41B81F151FB7009F5368 /* HD_Main_Section.swift */; };
 		928A41BB1F16732F009F5368 /* HD_ViewController_Main_TVC_Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928A41BA1F16732F009F5368 /* HD_ViewController_Main_TVC_Header.swift */; };
 		928FBAB91F61988200B55CFC /* MC_MakeClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928FBAB81F61988200B55CFC /* MC_MakeClubViewController.swift */; };
@@ -344,11 +349,15 @@
 		926505D41F10AF9500362203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		926EBD1F210D789F000C38A6 /* TL_Module01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TL_Module01.swift; path = 30_TimeLine/Module/TL_Module01.swift; sourceTree = "<group>"; };
 		926EBD26210D7B92000C38A6 /* tl01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tl01.json; path = 90_Common/Resource/JSON/tl01.json; sourceTree = "<group>"; };
-		926EBD2B211536D0000C38A6 /* Ser_10_MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Ser_10_MainController.swift; path = 40_Service/Controller/Ser_10_MainController.swift; sourceTree = "<group>"; };
+		926EBD2B211536D0000C38A6 /* Ser_10_MainController_tableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Ser_10_MainController_tableview.swift; path = 40_Service/Controller/Ser_10_MainController_tableview.swift; sourceTree = "<group>"; };
 		926EBD2D21154080000C38A6 /* Common_MenuBar_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_MenuBar_01.swift; path = 90_Common/Common_MenuBar_01.swift; sourceTree = "<group>"; };
 		926EBD2F21168469000C38A6 /* Common_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_UIView.swift; path = 90_Common/Common_UIView.swift; sourceTree = "<group>"; };
 		926EBD312116CDFB000C38A6 /* Common_Cell02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common_Cell02.swift; path = 90_Common/Common_Cell02.swift; sourceTree = "<group>"; };
-		926EBD332116E3DA000C38A6 /* Ser_10_MainController_bak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ser_10_MainController_bak.swift; path = 40_Service/Controller/Ser_10_MainController_bak.swift; sourceTree = "<group>"; };
+		926EBD332116E3DA000C38A6 /* Ser_10_MainController_collectionview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ser_10_MainController_collectionview.swift; path = 40_Service/Controller/Ser_10_MainController_collectionview.swift; sourceTree = "<group>"; };
+		926EBD352117BE19000C38A6 /* Common_Cell03.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common_Cell03.swift; path = 90_Common/Common_Cell03.swift; sourceTree = "<group>"; };
+		926EBD37211B2BF8000C38A6 /* Common_Cell04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_Cell04.swift; path = 90_Common/Common_Cell04.swift; sourceTree = "<group>"; };
+		926EBD38211B2BF8000C38A6 /* Common_Cell04.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Common_Cell04.xib; path = 90_Common/Common_Cell04.xib; sourceTree = "<group>"; };
+		926EBD3B211B2E66000C38A6 /* Ser_10_MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ser_10_MainController.swift; path = 40_Service/Controller/Ser_10_MainController.swift; sourceTree = "<group>"; };
 		926F66211F96BFD30053A8C9 /* HD_CollectionViewCell_HuoDongZhongLei.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HD_CollectionViewCell_HuoDongZhongLei.swift; path = HouDong/Controller/HD_CollectionViewCell_HuoDongZhongLei.swift; sourceTree = "<group>"; };
 		9270238D20F9EE0700523C24 /* Expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expression.plist; sourceTree = "<group>"; };
 		9270239420F9EFA400523C24 /* Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Expression.bundle; sourceTree = "<group>"; };
@@ -390,6 +399,7 @@
 		92791E3420FA14440063B53C /* sendmsg.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sendmsg.caf; sourceTree = "<group>"; };
 		927A4D9720CBB31700F0D20E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		927A4D9820CBB31700F0D20E /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		927C35D4211DE27200E7CA88 /* Ser_1010_checkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Ser_1010_checkDetail.swift; path = 40_Service/Controller/Ser_1010_checkDetail.swift; sourceTree = "<group>"; };
 		928A41B81F151FB7009F5368 /* HD_Main_Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HD_Main_Section.swift; path = HouDong/Data/HD_Main_Section.swift; sourceTree = "<group>"; };
 		928A41BA1F16732F009F5368 /* HD_ViewController_Main_TVC_Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HD_ViewController_Main_TVC_Header.swift; path = HouDong/Controller/HD_ViewController_Main_TVC_Header.swift; sourceTree = "<group>"; };
 		928FBAB81F61988200B55CFC /* MC_MakeClubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MC_MakeClubViewController.swift; path = 03_MyClub/Controller/MC_MakeClubViewController.swift; sourceTree = "<group>"; };
@@ -751,8 +761,10 @@
 		926EBD292115367C000C38A6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				926EBD2B211536D0000C38A6 /* Ser_10_MainController.swift */,
-				926EBD332116E3DA000C38A6 /* Ser_10_MainController_bak.swift */,
+				926EBD2B211536D0000C38A6 /* Ser_10_MainController_tableview.swift */,
+				926EBD332116E3DA000C38A6 /* Ser_10_MainController_collectionview.swift */,
+				926EBD3B211B2E66000C38A6 /* Ser_10_MainController.swift */,
+				927C35D4211DE27200E7CA88 /* Ser_1010_checkDetail.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -1098,12 +1110,15 @@
 				92F3105A20DE201D00B115D2 /* Common_Cell01.xib */,
 				92BDB4F420DE273A00F49C51 /* Common_Cell01_CollectionView.swift */,
 				926EBD312116CDFB000C38A6 /* Common_Cell02.swift */,
+				926EBD352117BE19000C38A6 /* Common_Cell03.swift */,
 				92180A5320EA58670091D736 /* Common_ChatLogCell01.swift */,
 				92A8BAF320E7B19C004245C2 /* Common_TableViewCell.swift */,
 				92A8BAF420E7B19C004245C2 /* Common_TableViewCell.xib */,
 				923126FA210C4C9300E66A4C /* Common_Constraints.swift */,
 				926EBD2D21154080000C38A6 /* Common_MenuBar_01.swift */,
 				926EBD2F21168469000C38A6 /* Common_UIView.swift */,
+				926EBD37211B2BF8000C38A6 /* Common_Cell04.swift */,
+				926EBD38211B2BF8000C38A6 /* Common_Cell04.xib */,
 			);
 			name = 90_Common;
 			sourceTree = "<group>";
@@ -1460,6 +1475,7 @@
 				92E6BB9920F0BECD00D4C0D8 /* TSChatShareMoreCollectionViewCell.xib in Resources */,
 				92D2A5A620FCA6CE002A0E4A /* TSChatTextCell.xib in Resources */,
 				9270239520F9EFA500523C24 /* Expression.bundle in Resources */,
+				926EBD3A211B2BF8000C38A6 /* Common_Cell04.xib in Resources */,
 				92791E3E20FA14440063B53C /* call.caf in Resources */,
 				92791E3620FA14440063B53C /* shake_sound_male.wav in Resources */,
 				922F699320FEFDCC00EFE6A9 /* sportstype.json in Resources */,
@@ -1691,7 +1707,7 @@
 				920653BB1F472E4900B5AF6F /* HD_Detailed_MainViewController.swift in Sources */,
 				9278FFB620F24752006B88C9 /* ImageFilesManager.swift in Sources */,
 				9222D2D91FA997C20033BD65 /* JLB_CanjiaZhongList_Cell.swift in Sources */,
-				926EBD342116E3DA000C38A6 /* Ser_10_MainController_bak.swift in Sources */,
+				926EBD342116E3DA000C38A6 /* Ser_10_MainController_collectionview.swift in Sources */,
 				92E6BB7920F0B2EC00D4C0D8 /* TSChatViewController+CellEnums.swift in Sources */,
 				92BDB4F820DE2DB100F49C51 /* XXX_10_ViewController.swift in Sources */,
 				92A8BAF820E86538004245C2 /* XXX_101010_AddNewViewController.swift in Sources */,
@@ -1700,6 +1716,7 @@
 				9231838F1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift in Sources */,
 				922F698220FDEC3F00EFE6A9 /* YDC_Model02.swift in Sources */,
 				9278FFB220F24752006B88C9 /* TSChatDataManager.swift in Sources */,
+				926EBD39211B2BF8000C38A6 /* Common_Cell04.swift in Sources */,
 				991A72BF20A1DF1100FD0024 /* LoginViewController.swift in Sources */,
 				92A8BAE420DFD690004245C2 /* objectXXX.swift in Sources */,
 				99A5CD90208C99A800378FEF /* HY_Main_CollectionViewController.swift in Sources */,
@@ -1710,6 +1727,7 @@
 				9278FFCC20F247F2006B88C9 /* TSChatTextCell.swift in Sources */,
 				9278FFCB20F247F2006B88C9 /* TSChatImageCell.swift in Sources */,
 				92FF785820F268DB00016975 /* NSDictionary+Extension.swift in Sources */,
+				926EBD3C211B2E66000C38A6 /* Ser_10_MainController.swift in Sources */,
 				92D2A5A820FD98E0002A0E4A /* SwiftPopMenu.swift in Sources */,
 				92E6BB6C20F0B29000D4C0D8 /* HttpManager+UploadImage.swift in Sources */,
 				9278FFAF20F24752006B88C9 /* AudioPlayManager.swift in Sources */,
@@ -1723,6 +1741,7 @@
 				928FBAB91F61988200B55CFC /* MC_MakeClubViewController.swift in Sources */,
 				92E6BB6620F0B29000D4C0D8 /* TSChatModel.swift in Sources */,
 				92E6BB9420F0BECD00D4C0D8 /* TSChatButton+UI.swift in Sources */,
+				926EBD362117BE19000C38A6 /* Common_Cell03.swift in Sources */,
 				92CB747F20F3A74C00015A62 /* TSLogger.swift in Sources */,
 				92CB747E20F3A74C00015A62 /* TSUIImage+WeChat.swift in Sources */,
 				9278FFB420F24752006B88C9 /* ChatConfig.swift in Sources */,
@@ -1750,7 +1769,8 @@
 				923126F52101AB5D00E66A4C /* TL_10_CollectionViewController.swift in Sources */,
 				92E6BB6520F0B29000D4C0D8 /* TSChatSubModel.swift in Sources */,
 				92CB748B20F3A8DA00015A62 /* TSConfig.swift in Sources */,
-				926EBD2C211536D1000C38A6 /* Ser_10_MainController.swift in Sources */,
+				926EBD2C211536D1000C38A6 /* Ser_10_MainController_tableview.swift in Sources */,
+				927C35D5211DE27200E7CA88 /* Ser_1010_checkDetail.swift in Sources */,
 				92180A5220EA54530091D736 /* ChatLogController.swift in Sources */,
 				928FBAC01F681CE700B55CFC /* MC_MyClubViewController.swift in Sources */,
 				92E6BB8020F0B2EC00D4C0D8 /* TSChatViewController.swift in Sources */,
