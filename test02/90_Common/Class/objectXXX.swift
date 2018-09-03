@@ -11,4 +11,6 @@ import Foundation
 class objectXXX : NSObject {
     var name : String?
     var profileImageNmae : String?
+    var sportType : String?
+    var sportTypeImage : String?
 }

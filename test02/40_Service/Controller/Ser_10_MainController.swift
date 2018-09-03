@@ -50,6 +50,7 @@ class Ser_10_MainController : UIViewController, UITableViewDelegate,UITableViewD
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 //        tabBarController?.tabBar.isHidden = false
+        self.tabBarController?.tabBar.isHidden = false
         
     }
     

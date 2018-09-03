@@ -32,14 +32,15 @@ fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
 }
 
 
-class YDC_10_TableViewCell: UITableViewCell {
+class Common_TableViewCell01: UITableViewCell {
 
-
+    @IBOutlet weak var ID: UILabel!
     @IBOutlet weak var avatarImageView: UIImageView!        //头像图片
     @IBOutlet weak var unreadNumberLabel: UILabel!          //消息数量
     @IBOutlet weak var dateLabel: UILabel!                  //消息时间
     @IBOutlet weak var nameLabel: UILabel!                  //消息名称
     @IBOutlet weak var lastMessageLabel: UILabel!           //消息内容
+    @IBOutlet weak var sportsTypeID: UILabel!
     @IBOutlet weak var sportsTypeImageView: UIImageView!    //消息种类图片
 
 
@@ -52,20 +53,19 @@ class YDC_10_TableViewCell: UITableViewCell {
         self.unreadNumberLabel.layer.cornerRadius = self.unreadNumberLabel.height / 2.0
     }
 
-    func setCellContnet(_ model: YDC_Model01) {
+    func setCellContnet(_ model: Common_Model_TableViewCell01) {
 
-//        self.ID.isHidden = true
-//        self.sportsTypeID.isHidden = true
-//        self.unreadNumberLabel.isHidden = true
+        self.ID.isHidden = true
+        self.sportsTypeID.isHidden = true
 
-//        self.ID.text = model.HDID
-        self.avatarImageView.ts_setImageWithURLString(model.HDImageURL, placeholderImage: model.messageFromType.placeHolderImage)
-//        self.unreadNumberLabel.text = model. > 99 ? "99+" : String(model.unreadNumber!)
-
-        self.lastMessageLabel.text = model.HDJL!
-        self.dateLabel.text = model.HDDateTime
-        self.nameLabel.text = model.HDTitle
-        self.sportsTypeImageView.image = UIImage(named: model.HDTtype!)
+        self.ID.text = model.ID
+        self.avatarImageView.ts_setImageWithURLString(model.avatarImageView, placeholderImage: model.messageFromType.placeHolderImage)
+        self.unreadNumberLabel.text = (model.unreadNumberLabel! as NSString).intValue > 99 ? "99+" : String(model.unreadNumberLabel!)
+        self.dateLabel.text = model.dateLabel
+        self.nameLabel.text = model.nameLabel
+        self.lastMessageLabel.text = model.lastMessageLabel
+        self.sportsTypeID.text = model.sportsTypeID
+        self.sportsTypeImageView.image = UIImage(named: model.sportsTypeImageView!)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

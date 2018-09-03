@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8ABA671B9662DDF0B9145F25 /* Pods_test02.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B96321BFC9184139B0B6D0 /* Pods_test02.framework */; };
 		920653B71F45EAC000B5AF6F /* HD_FindResult_MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920653B61F45EAC000B5AF6F /* HD_FindResult_MainViewController.swift */; };
 		920653B91F45EB6100B5AF6F /* HD_FindResult_Main_TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920653B81F45EB6100B5AF6F /* HD_FindResult_Main_TVC.swift */; };
 		920653BB1F472E4900B5AF6F /* HD_Detailed_MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920653BA1F472E4900B5AF6F /* HD_Detailed_MainViewController.swift */; };
+		920B16E4213AD21B00CE0FAA /* XXX_10_ViewController_bak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920B16E3213AD21B00CE0FAA /* XXX_10_ViewController_bak.swift */; };
+		920B16E9213B714400CE0FAA /* xxxList.json in Resources */ = {isa = PBXBuildFile; fileRef = 920B16E8213B714400CE0FAA /* xxxList.json */; };
+		920B16EB213B717200CE0FAA /* XXX_Model01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920B16EA213B717200CE0FAA /* XXX_Model01.swift */; };
+		920B16ED213B815300CE0FAA /* Common_Model_TableViewCell01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920B16EC213B815300CE0FAA /* Common_Model_TableViewCell01.swift */; };
+		920B16EF213B830C00CE0FAA /* Common_TableViewCell01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920B16EE213B830C00CE0FAA /* Common_TableViewCell01.swift */; };
 		920C776D1FADD10400625060 /* MC_ClubTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920C776C1FADD10400625060 /* MC_ClubTypeCollectionViewCell.swift */; };
 		920C776F1FADD6EF00625060 /* MC_Module_MyClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920C776E1FADD6EF00625060 /* MC_Module_MyClub.swift */; };
 		920C77711FADD7A900625060 /* MyClub_Data_Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920C77701FADD7A900625060 /* MyClub_Data_Structs.swift */; };
@@ -39,6 +43,7 @@
 		923126FB210C4C9300E66A4C /* Common_Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923126FA210C4C9300E66A4C /* Common_Constraints.swift */; };
 		9231838D1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231838C1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift */; };
 		9231838F1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231838E1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift */; };
+		92459E3B213A621B00D48E9D /* Common_SportsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92459E3A213A621B00D48E9D /* Common_SportsList.swift */; };
 		924D73241F83C39600E74BD0 /* HD_Module_HuoDong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924D73231F83C39600E74BD0 /* HD_Module_HuoDong.swift */; };
 		924D73261F83C45A00E74BD0 /* HD_Data_Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924D73251F83C45A00E74BD0 /* HD_Data_Structs.swift */; };
 		9256408D1F13BB390024A20F /* HD_ViewController_Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9256408C1F13BB390024A20F /* HD_ViewController_Main.swift */; };
@@ -109,6 +114,7 @@
 		928FBABE1F641F8400B55CFC /* MC_MakeClubViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928FBABD1F641F8400B55CFC /* MC_MakeClubViewController2.swift */; };
 		928FBAC01F681CE700B55CFC /* MC_MyClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928FBABF1F681CE700B55CFC /* MC_MyClubViewController.swift */; };
 		928FBAC21F68226900B55CFC /* MC_ClubMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928FBAC11F68226900B55CFC /* MC_ClubMainViewController.swift */; };
+		929661C8211FD8E0004B0145 /* XXX_1020_Add01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929661C7211FD8E0004B0145 /* XXX_1020_Add01.swift */; };
 		92A8BAE420DFD690004245C2 /* objectXXX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8BAE320DFD690004245C2 /* objectXXX.swift */; };
 		92A8BAE620DFD6C4004245C2 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8BAE520DFD6C4004245C2 /* Message.swift */; };
 		92A8BAE920DFDE1A004245C2 /* XXX_Module_Func.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8BAE820DFDE1A004245C2 /* XXX_Module_Func.swift */; };
@@ -119,6 +125,7 @@
 		92A8BAF820E86538004245C2 /* XXX_101010_AddNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8BAF720E86538004245C2 /* XXX_101010_AddNewViewController.swift */; };
 		92BDB4F520DE273A00F49C51 /* Common_Cell01_CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BDB4F420DE273A00F49C51 /* Common_Cell01_CollectionView.swift */; };
 		92BDB4F820DE2DB100F49C51 /* XXX_10_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BDB4F720DE2DB100F49C51 /* XXX_10_ViewController.swift */; };
+		92C05B4E2125AACC00E6C395 /* XXX_102010_AddMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C05B4D2125AACC00E6C395 /* XXX_102010_AddMap.swift */; };
 		92CB747E20F3A74C00015A62 /* TSUIImage+WeChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB747020F3A74B00015A62 /* TSUIImage+WeChat.swift */; };
 		92CB747F20F3A74C00015A62 /* TSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB747120F3A74B00015A62 /* TSLogger.swift */; };
 		92CB748020F3A74C00015A62 /* TSImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB747220F3A74B00015A62 /* TSImagePicker.swift */; };
@@ -137,6 +144,11 @@
 		92E4496520F04BBB0045CA96 /* message.json in Resources */ = {isa = PBXBuildFile; fileRef = 92E4496220F04BBB0045CA96 /* message.json */; };
 		92E4496620F04BBB0045CA96 /* chat.json in Resources */ = {isa = PBXBuildFile; fileRef = 92E4496320F04BBB0045CA96 /* chat.json */; };
 		92E4496720F04BBB0045CA96 /* contact.json in Resources */ = {isa = PBXBuildFile; fileRef = 92E4496420F04BBB0045CA96 /* contact.json */; };
+		92E4BDC9212EDCA1002DB24A /* Common_Profile_personal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E4BDC7212EDCA1002DB24A /* Common_Profile_personal.swift */; };
+		92E4BDCA212EDCA1002DB24A /* Common_Profile_personal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92E4BDC8212EDCA1002DB24A /* Common_Profile_personal.xib */; };
+		92E4BDD4213428E6002DB24A /* Common_Profile_personal_sb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E4BDD3213428E6002DB24A /* Common_Profile_personal_sb.swift */; };
+		92E4BDD721343A47002DB24A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E4BDD521343A47002DB24A /* TableViewController.swift */; };
+		92E4BDD821343A47002DB24A /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92E4BDD621343A47002DB24A /* TableViewController.xib */; };
 		92E6BB6220F0B29000D4C0D8 /* TSApplicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E6BB5220F0B29000D4C0D8 /* TSApplicationManager.swift */; };
 		92E6BB6320F0B29000D4C0D8 /* TSUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E6BB5320F0B29000D4C0D8 /* TSUserManager.swift */; };
 		92E6BB6420F0B29000D4C0D8 /* TSContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E6BB5520F0B29000D4C0D8 /* TSContactModel.swift */; };
@@ -177,6 +189,8 @@
 		92E6BBA120F0BECD00D4C0D8 /* TSChatEmotionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92E6BB9120F0BECD00D4C0D8 /* TSChatEmotionCell.xib */; };
 		92E6BBA220F0BECD00D4C0D8 /* TSChatShareMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E6BB9220F0BECD00D4C0D8 /* TSChatShareMoreView.swift */; };
 		92E6BBB520F0C4EE00D4C0D8 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E6BBAC20F0C4EE00D4C0D8 /* NSDate+Extension.swift */; };
+		92F30159213B86DE00B16715 /* Common_TableViewCell01.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92F30158213B86DE00B16715 /* Common_TableViewCell01.xib */; };
+		92F3015B213D658500B16715 /* Common_EventContentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F3015A213D658500B16715 /* Common_EventContentTableViewController.swift */; };
 		92F3105620DE08D800B115D2 /* XXX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F3105520DE08D800B115D2 /* XXX.storyboard */; };
 		92F3105920DE1FF900B115D2 /* Common_TableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92F3105820DE1FF900B115D2 /* Common_TableView.xib */; };
 		92F3105B20DE201D00B115D2 /* Common_Cell01.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92F3105A20DE201D00B115D2 /* Common_Cell01.xib */; };
@@ -212,7 +226,6 @@
 		99976E5C203AE55300811A48 /* MC_MapCustom03ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99976E5B203AE55300811A48 /* MC_MapCustom03ViewController.swift */; };
 		99A5CD90208C99A800378FEF /* HY_Main_CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A5CD8F208C99A800378FEF /* HY_Main_CollectionViewController.swift */; };
 		99B7F6E620319241008E0FD3 /* CVCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B7F6E720319241008E0FD3 /* CVCalendar.framework */; };
-		99B7F6E820319246008E0FD3 /* SwiftForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B7F6E920319246008E0FD3 /* SwiftForms.framework */; };
 		99EDED4A20319AEF00E21F5E /* MC_MyClub_NewHD_MapSelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EDED4920319AEF00E21F5E /* MC_MyClub_NewHD_MapSelectCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -266,20 +279,6 @@
 			remoteGlobalIDString = 45D9D8B31C5006AA006673B2;
 			remoteInfo = CVCalendar;
 		};
-		995575F320BAB06000B19B1A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 995575EE20BAB06000B19B1A /* SwiftFormsApplication.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0CCA33D71B04FA5A006D9666;
-			remoteInfo = SwiftFormsApplication;
-		};
-		995575F520BAB06000B19B1A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 995575EE20BAB06000B19B1A /* SwiftFormsApplication.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0CCA342C1B04FBDF006D9666;
-			remoteInfo = SwiftForms;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -302,6 +301,11 @@
 		920653B61F45EAC000B5AF6F /* HD_FindResult_MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HD_FindResult_MainViewController.swift; path = HouDong/Controller/HD_FindResult_MainViewController.swift; sourceTree = "<group>"; };
 		920653B81F45EB6100B5AF6F /* HD_FindResult_Main_TVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HD_FindResult_Main_TVC.swift; path = HouDong/Controller/HD_FindResult_Main_TVC.swift; sourceTree = "<group>"; };
 		920653BA1F472E4900B5AF6F /* HD_Detailed_MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HD_Detailed_MainViewController.swift; path = HouDong/Controller/HD_Detailed_MainViewController.swift; sourceTree = "<group>"; };
+		920B16E3213AD21B00CE0FAA /* XXX_10_ViewController_bak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XXX_10_ViewController_bak.swift; path = 10_XXX/XXX_10/Controller/XXX_10_ViewController_bak.swift; sourceTree = "<group>"; };
+		920B16E8213B714400CE0FAA /* xxxList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = xxxList.json; path = 90_Common/Resource/JSON/xxxList.json; sourceTree = "<group>"; };
+		920B16EA213B717200CE0FAA /* XXX_Model01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XXX_Model01.swift; path = 10_XXX/XXX_10/Module/XXX_Model01.swift; sourceTree = "<group>"; };
+		920B16EC213B815300CE0FAA /* Common_Model_TableViewCell01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common_Model_TableViewCell01.swift; path = 20_YunDongChang/Module/Common_Model_TableViewCell01.swift; sourceTree = "<group>"; };
+		920B16EE213B830C00CE0FAA /* Common_TableViewCell01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common_TableViewCell01.swift; path = 20_YunDongChang/Module/Common_TableViewCell01.swift; sourceTree = "<group>"; };
 		920C776C1FADD10400625060 /* MC_ClubTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MC_ClubTypeCollectionViewCell.swift; path = 03_MyClub/Controller/MC_ClubTypeCollectionViewCell.swift; sourceTree = "<group>"; };
 		920C776E1FADD6EF00625060 /* MC_Module_MyClub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MC_Module_MyClub.swift; path = 03_MyClub/Module/MC_Module_MyClub.swift; sourceTree = "<group>"; };
 		920C77701FADD7A900625060 /* MyClub_Data_Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyClub_Data_Structs.swift; path = 03_MyClub/Data/MyClub_Data_Structs.swift; sourceTree = "<group>"; };
@@ -329,6 +333,8 @@
 		923126FA210C4C9300E66A4C /* Common_Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_Constraints.swift; path = 90_Common/Common_Constraints.swift; sourceTree = "<group>"; };
 		9231838C1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_ClubDetail_TableViewController.swift; path = JuLeBu/Controller/JLB_ClubDetail_TableViewController.swift; sourceTree = "<group>"; };
 		9231838E1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_UserList_CollectionViewController.swift; path = 03_MyClub/Controller/JLB_UserList_CollectionViewController.swift; sourceTree = "<group>"; };
+		9236C93C2123059A00AB4643 /* SwiftyFORM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyFORM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92459E3A213A621B00D48E9D /* Common_SportsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_SportsList.swift; path = 90_Common/Common_SportsList.swift; sourceTree = "<group>"; };
 		924D73231F83C39600E74BD0 /* HD_Module_HuoDong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HD_Module_HuoDong.swift; path = HouDong/Module/HD_Module_HuoDong.swift; sourceTree = "<group>"; };
 		924D73251F83C45A00E74BD0 /* HD_Data_Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HD_Data_Structs.swift; path = HouDong/Data/HD_Data_Structs.swift; sourceTree = "<group>"; };
 		924D73271F859EFC00E74BD0 /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
@@ -406,6 +412,7 @@
 		928FBABD1F641F8400B55CFC /* MC_MakeClubViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MC_MakeClubViewController2.swift; path = 03_MyClub/Controller/MC_MakeClubViewController2.swift; sourceTree = "<group>"; };
 		928FBABF1F681CE700B55CFC /* MC_MyClubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MC_MyClubViewController.swift; path = 03_MyClub/Controller/MC_MyClubViewController.swift; sourceTree = "<group>"; };
 		928FBAC11F68226900B55CFC /* MC_ClubMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MC_ClubMainViewController.swift; path = 03_MyClub/Controller/MC_ClubMainViewController.swift; sourceTree = "<group>"; };
+		929661C7211FD8E0004B0145 /* XXX_1020_Add01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XXX_1020_Add01.swift; path = 10_XXX/XXX_10/Controller/XXX_1020_Add01.swift; sourceTree = "<group>"; };
 		92A8BAE320DFD690004245C2 /* objectXXX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = objectXXX.swift; path = 90_Common/Class/objectXXX.swift; sourceTree = "<group>"; };
 		92A8BAE520DFD6C4004245C2 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = 90_Common/Class/Message.swift; sourceTree = "<group>"; };
 		92A8BAE820DFDE1A004245C2 /* XXX_Module_Func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XXX_Module_Func.swift; path = 10_XXX/XXX_10/Module/XXX_Module_Func.swift; sourceTree = "<group>"; };
@@ -416,6 +423,7 @@
 		92A8BAF720E86538004245C2 /* XXX_101010_AddNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XXX_101010_AddNewViewController.swift; path = 10_XXX/XXX_10/Controller/XXX_101010_AddNewViewController.swift; sourceTree = "<group>"; };
 		92BDB4F420DE273A00F49C51 /* Common_Cell01_CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_Cell01_CollectionView.swift; path = 90_Common/Common_Cell01_CollectionView.swift; sourceTree = "<group>"; };
 		92BDB4F720DE2DB100F49C51 /* XXX_10_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XXX_10_ViewController.swift; path = 10_XXX/XXX_10/Controller/XXX_10_ViewController.swift; sourceTree = "<group>"; };
+		92C05B4D2125AACC00E6C395 /* XXX_102010_AddMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XXX_102010_AddMap.swift; path = test02/XXX_102010_AddMap.swift; sourceTree = SOURCE_ROOT; };
 		92CB747020F3A74B00015A62 /* TSUIImage+WeChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TSUIImage+WeChat.swift"; sourceTree = "<group>"; };
 		92CB747120F3A74B00015A62 /* TSLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSLogger.swift; sourceTree = "<group>"; };
 		92CB747220F3A74B00015A62 /* TSImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSImagePicker.swift; sourceTree = "<group>"; };
@@ -434,6 +442,11 @@
 		92E4496220F04BBB0045CA96 /* message.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = message.json; sourceTree = "<group>"; };
 		92E4496320F04BBB0045CA96 /* chat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chat.json; sourceTree = "<group>"; };
 		92E4496420F04BBB0045CA96 /* contact.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contact.json; sourceTree = "<group>"; };
+		92E4BDC7212EDCA1002DB24A /* Common_Profile_personal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_Profile_personal.swift; path = 90_Common/Common_Profile_personal.swift; sourceTree = "<group>"; };
+		92E4BDC8212EDCA1002DB24A /* Common_Profile_personal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Common_Profile_personal.xib; path = 90_Common/Common_Profile_personal.xib; sourceTree = "<group>"; };
+		92E4BDD3213428E6002DB24A /* Common_Profile_personal_sb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_Profile_personal_sb.swift; path = 90_Common/Common_Profile_personal_sb.swift; sourceTree = "<group>"; };
+		92E4BDD521343A47002DB24A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = 90_Common/TableViewController.swift; sourceTree = "<group>"; };
+		92E4BDD621343A47002DB24A /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TableViewController.xib; path = 90_Common/TableViewController.xib; sourceTree = "<group>"; };
 		92E6BB5220F0B29000D4C0D8 /* TSApplicationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSApplicationManager.swift; sourceTree = "<group>"; };
 		92E6BB5320F0B29000D4C0D8 /* TSUserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSUserManager.swift; sourceTree = "<group>"; };
 		92E6BB5520F0B29000D4C0D8 /* TSContactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSContactModel.swift; sourceTree = "<group>"; };
@@ -474,6 +487,8 @@
 		92E6BB9120F0BECD00D4C0D8 /* TSChatEmotionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSChatEmotionCell.xib; sourceTree = "<group>"; };
 		92E6BB9220F0BECD00D4C0D8 /* TSChatShareMoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatShareMoreView.swift; sourceTree = "<group>"; };
 		92E6BBAC20F0C4EE00D4C0D8 /* NSDate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
+		92F30158213B86DE00B16715 /* Common_TableViewCell01.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Common_TableViewCell01.xib; path = 20_YunDongChang/Module/Common_TableViewCell01.xib; sourceTree = "<group>"; };
+		92F3015A213D658500B16715 /* Common_EventContentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_EventContentTableViewController.swift; path = 90_Common/Common_EventContentTableViewController.swift; sourceTree = "<group>"; };
 		92F3105520DE08D800B115D2 /* XXX.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = XXX.storyboard; sourceTree = "<group>"; };
 		92F3105820DE1FF900B115D2 /* Common_TableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Common_TableView.xib; path = 90_Common/Common_TableView.xib; sourceTree = "<group>"; };
 		92F3105A20DE201D00B115D2 /* Common_Cell01.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Common_Cell01.xib; path = 90_Common/Common_Cell01.xib; sourceTree = "<group>"; };
@@ -504,7 +519,6 @@
 		994708B52039AF2A003409DD /* Mc_MapCustom01View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Mc_MapCustom01View.swift; path = 03_MyClub/Mc_MapCustom01View.swift; sourceTree = "<group>"; };
 		994CAADF2021F703006E9930 /* MC_MyClub_NewHuodong_Form01_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MC_MyClub_NewHuodong_Form01_ViewController.swift; path = 03_MyClub/Controller/MC_MyClub_NewHuodong_Form01_ViewController.swift; sourceTree = "<group>"; };
 		995575E820BAB04A00B19B1A /* CVCalendar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CVCalendar.xcodeproj; path = "CVCalendar-master/CVCalendar.xcodeproj"; sourceTree = "<group>"; };
-		995575EE20BAB06000B19B1A /* SwiftFormsApplication.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftFormsApplication.xcodeproj; path = "SwiftForms-master/SwiftFormsApplication.xcodeproj"; sourceTree = "<group>"; };
 		9956777120B0F5B500F7FC3F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9985750320BC1CB200203F91 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RootViewController.swift; path = 04_Login/RootViewController.swift; sourceTree = "<group>"; };
 		9985750A20C22D3500203F91 /* HD_TableViewCell_Detail_R01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HD_TableViewCell_Detail_R01.swift; path = HouDong/Controller/HD_TableViewCell_Detail_R01.swift; sourceTree = "<group>"; };
@@ -524,9 +538,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99B7F6E820319246008E0FD3 /* SwiftForms.framework in Frameworks */,
 				99B7F6E620319241008E0FD3 /* CVCalendar.framework in Frameworks */,
-				8ABA671B9662DDF0B9145F25 /* Pods_test02.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +585,8 @@
 				92E6BB7120F0B2E700D4C0D8 /* TSChatViewController+Subviews.swift */,
 				92E6BB7220F0B2E700D4C0D8 /* TSChatViewController+TestData.swift */,
 				92180A5120EA54530091D736 /* ChatLogController.swift */,
+				92E4BDD521343A47002DB24A /* TableViewController.swift */,
+				92E4BDD621343A47002DB24A /* TableViewController.xib */,
 			);
 			name = Chat;
 			sourceTree = "<group>";
@@ -684,7 +698,6 @@
 			isa = PBXGroup;
 			children = (
 				99054C2220BAB101008D3A3F /* TangramKit.xcodeproj */,
-				995575EE20BAB06000B19B1A /* SwiftFormsApplication.xcodeproj */,
 				995575E820BAB04A00B19B1A /* CVCalendar.xcodeproj */,
 				925640881F1126170024A20F /* New Group */,
 				926505B11F10AF9500362203 /* test02 */,
@@ -892,6 +905,7 @@
 		92A8BAE720DFDE0A004245C2 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				920B16EA213B717200CE0FAA /* XXX_Model01.swift */,
 				92A8BAE820DFDE1A004245C2 /* XXX_Module_Func.swift */,
 			);
 			name = Module;
@@ -918,6 +932,9 @@
 			children = (
 				92FA8D0F20FC7EA100425452 /* Message */,
 				92BDB4F720DE2DB100F49C51 /* XXX_10_ViewController.swift */,
+				920B16E3213AD21B00CE0FAA /* XXX_10_ViewController_bak.swift */,
+				929661C7211FD8E0004B0145 /* XXX_1020_Add01.swift */,
+				92C05B4D2125AACC00E6C395 /* XXX_102010_AddMap.swift */,
 				92A8BAED20E12D59004245C2 /* XXX_1010_TongXunLuViewController.swift */,
 				92A8BAF720E86538004245C2 /* XXX_101010_AddNewViewController.swift */,
 				92D2A5A720FD98E0002A0E4A /* SwiftPopMenu.swift */,
@@ -966,6 +983,9 @@
 				92D2A5AC20FD9EB0002A0E4A /* YDC_10_ViewController.swift */,
 				922F698D20FDFCA000EFE6A9 /* YDC_10_TableViewCell.xib */,
 				922F698720FDFB9300EFE6A9 /* YDC_10_TableViewCell.swift */,
+				92F30158213B86DE00B16715 /* Common_TableViewCell01.xib */,
+				920B16EE213B830C00CE0FAA /* Common_TableViewCell01.swift */,
+				920B16EC213B815300CE0FAA /* Common_Model_TableViewCell01.swift */,
 				922F699020FECC6700EFE6A9 /* YDC_1010_SetQueryViewController_v10.swift */,
 				921F381F210059F400C92E46 /* YDC_1010_SetQueryViewController.swift */,
 			);
@@ -1002,6 +1022,7 @@
 				92E4496420F04BBB0045CA96 /* contact.json */,
 				92E4496220F04BBB0045CA96 /* message.json */,
 				922F697920FDE2B000EFE6A9 /* ydc1.json */,
+				920B16E8213B714400CE0FAA /* xxxList.json */,
 				922F697B20FDEAF700EFE6A9 /* ydc2.json */,
 				922F697D20FDEB1000EFE6A9 /* ydc3.json */,
 				922F697F20FDEB2700EFE6A9 /* ydc4.json */,
@@ -1119,6 +1140,11 @@
 				926EBD2F21168469000C38A6 /* Common_UIView.swift */,
 				926EBD37211B2BF8000C38A6 /* Common_Cell04.swift */,
 				926EBD38211B2BF8000C38A6 /* Common_Cell04.xib */,
+				92E4BDC7212EDCA1002DB24A /* Common_Profile_personal.swift */,
+				92E4BDC8212EDCA1002DB24A /* Common_Profile_personal.xib */,
+				92E4BDD3213428E6002DB24A /* Common_Profile_personal_sb.swift */,
+				92459E3A213A621B00D48E9D /* Common_SportsList.swift */,
+				92F3015A213D658500B16715 /* Common_EventContentTableViewController.swift */,
 			);
 			name = 90_Common;
 			sourceTree = "<group>";
@@ -1230,15 +1256,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		995575EF20BAB06000B19B1A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				995575F420BAB06000B19B1A /* SwiftFormsApplication.app */,
-				995575F620BAB06000B19B1A /* SwiftForms.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		99A5CD8C208C993400378FEF /* 04_HY */ = {
 			isa = PBXGroup;
 			children = (
@@ -1250,6 +1267,7 @@
 		CB03A7FC2631E48D33657CCF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9236C93C2123059A00AB4643 /* SwiftyFORM.framework */,
 				990996B020789AA90016BC3F /* TangramKit.xcodeproj */,
 				99B7F6E920319246008E0FD3 /* SwiftForms.framework */,
 				99B7F6E720319241008E0FD3 /* CVCalendar.framework */,
@@ -1363,10 +1381,6 @@
 					ProjectRef = 995575E820BAB04A00B19B1A /* CVCalendar.xcodeproj */;
 				},
 				{
-					ProductGroup = 995575EF20BAB06000B19B1A /* Products */;
-					ProjectRef = 995575EE20BAB06000B19B1A /* SwiftFormsApplication.xcodeproj */;
-				},
-				{
 					ProductGroup = 990996B120789AA90016BC3F /* Products */;
 					ProjectRef = 990996B020789AA90016BC3F /* TangramKit.xcodeproj */;
 				},
@@ -1420,20 +1434,6 @@
 			remoteRef = 995575EC20BAB04A00B19B1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		995575F420BAB06000B19B1A /* SwiftFormsApplication.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SwiftFormsApplication.app;
-			remoteRef = 995575F320BAB06000B19B1A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		995575F620BAB06000B19B1A /* SwiftForms.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftForms.framework;
-			remoteRef = 995575F520BAB06000B19B1A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -1474,16 +1474,20 @@
 				9278FFD020F247F2006B88C9 /* TSChatVoiceCell.xib in Resources */,
 				92E6BB9920F0BECD00D4C0D8 /* TSChatShareMoreCollectionViewCell.xib in Resources */,
 				92D2A5A620FCA6CE002A0E4A /* TSChatTextCell.xib in Resources */,
+				920B16E9213B714400CE0FAA /* xxxList.json in Resources */,
 				9270239520F9EFA500523C24 /* Expression.bundle in Resources */,
 				926EBD3A211B2BF8000C38A6 /* Common_Cell04.xib in Resources */,
+				92E4BDD821343A47002DB24A /* TableViewController.xib in Resources */,
 				92791E3E20FA14440063B53C /* call.caf in Resources */,
 				92791E3620FA14440063B53C /* shake_sound_male.wav in Resources */,
+				92F30159213B86DE00B16715 /* Common_TableViewCell01.xib in Resources */,
 				922F699320FEFDCC00EFE6A9 /* sportstype.json in Resources */,
 				92FA8D1E20FC7EA200425452 /* TSMessageViewController.xib in Resources */,
 				922F698020FDEB2700EFE6A9 /* ydc4.json in Resources */,
 				92791E3720FA14440063B53C /* beep.wav in Resources */,
 				926EBD27210D7B92000C38A6 /* tl01.json in Resources */,
 				9278FFCD20F247F2006B88C9 /* TSChatSystemCell.xib in Resources */,
+				92E4BDCA212EDCA1002DB24A /* Common_Profile_personal.xib in Resources */,
 				926505B81F10AF9500362203 /* Main.storyboard in Resources */,
 				92E6BBA020F0BECD00D4C0D8 /* TSChatShareMoreView.xib in Resources */,
 				92F3105620DE08D800B115D2 /* XXX.storyboard in Resources */,
@@ -1575,6 +1579,7 @@
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyFORM/SwiftyFORM.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/TSVoiceConverter/TSVoiceConverter.framework",
 				"${BUILT_PRODUCTS_DIR}/TangramKit/TangramKit.framework",
@@ -1603,6 +1608,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyFORM.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TSVoiceConverter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TangramKit.framework",
@@ -1631,6 +1637,7 @@
 				92E6BBA220F0BECD00D4C0D8 /* TSChatShareMoreView.swift in Sources */,
 				99EDED4A20319AEF00E21F5E /* MC_MyClub_NewHD_MapSelectCell.swift in Sources */,
 				92E6BB9B20F0BECD00D4C0D8 /* TSChatEmotionScollView.swift in Sources */,
+				920B16EB213B717200CE0FAA /* XXX_Model01.swift in Sources */,
 				928A41B91F151FB7009F5368 /* HD_Main_Section.swift in Sources */,
 				92FF784F20F268C800016975 /* AboutApp.swift in Sources */,
 				92E6BB9720F0BECD00D4C0D8 /* TSChatEmotionInputView.swift in Sources */,
@@ -1672,11 +1679,13 @@
 				9256408D1F13BB390024A20F /* HD_ViewController_Main.swift in Sources */,
 				922F697320FDB1B000EFE6A9 /* YDC_Model01.swift in Sources */,
 				92E6BB6720F0B29000D4C0D8 /* TSUploadModel.swift in Sources */,
+				92E4BDD4213428E6002DB24A /* Common_Profile_personal_sb.swift in Sources */,
 				922F698820FDFB9300EFE6A9 /* YDC_10_TableViewCell.swift in Sources */,
 				991CF84C201D986300EB66A7 /* MC_MyClubNewHuoDongController01.swift in Sources */,
 				92A8BAEE20E12D59004245C2 /* XXX_1010_TongXunLuViewController.swift in Sources */,
 				92E6BB6220F0B29000D4C0D8 /* TSApplicationManager.swift in Sources */,
 				92CB748320F3A74C00015A62 /* TSGlobalHelper.swift in Sources */,
+				920B16EF213B830C00CE0FAA /* Common_TableViewCell01.swift in Sources */,
 				92FA8D1D20FC7EA200425452 /* TSMessageActionFloatView.swift in Sources */,
 				92E6BB9520F0BECD00D4C0D8 /* TSChatActionBarView.swift in Sources */,
 				92E6BB6F20F0B29000D4C0D8 /* TSLocationManager.swift in Sources */,
@@ -1703,14 +1712,18 @@
 				92E6BB7F20F0B2EC00D4C0D8 /* TSChatViewController+Keyboard.swift in Sources */,
 				9278FFB920F24752006B88C9 /* TSYYTextLinePositionModifier.swift in Sources */,
 				92E6BB6820F0B29000D4C0D8 /* TSMessageModel.swift in Sources */,
+				92E4BDD721343A47002DB24A /* TableViewController.swift in Sources */,
 				994708B62039AF2A003409DD /* Mc_MapCustom01View.swift in Sources */,
 				920653BB1F472E4900B5AF6F /* HD_Detailed_MainViewController.swift in Sources */,
 				9278FFB620F24752006B88C9 /* ImageFilesManager.swift in Sources */,
 				9222D2D91FA997C20033BD65 /* JLB_CanjiaZhongList_Cell.swift in Sources */,
 				926EBD342116E3DA000C38A6 /* Ser_10_MainController_collectionview.swift in Sources */,
+				92F3015B213D658500B16715 /* Common_EventContentTableViewController.swift in Sources */,
 				92E6BB7920F0B2EC00D4C0D8 /* TSChatViewController+CellEnums.swift in Sources */,
 				92BDB4F820DE2DB100F49C51 /* XXX_10_ViewController.swift in Sources */,
 				92A8BAF820E86538004245C2 /* XXX_101010_AddNewViewController.swift in Sources */,
+				92459E3B213A621B00D48E9D /* Common_SportsList.swift in Sources */,
+				92C05B4E2125AACC00E6C395 /* XXX_102010_AddMap.swift in Sources */,
 				92D2A5AD20FD9EB0002A0E4A /* YDC_10_ViewController.swift in Sources */,
 				9278FFD320F247F2006B88C9 /* TSChatSystemCell.swift in Sources */,
 				9231838F1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift in Sources */,
@@ -1720,6 +1733,7 @@
 				991A72BF20A1DF1100FD0024 /* LoginViewController.swift in Sources */,
 				92A8BAE420DFD690004245C2 /* objectXXX.swift in Sources */,
 				99A5CD90208C99A800378FEF /* HY_Main_CollectionViewController.swift in Sources */,
+				920B16E4213AD21B00CE0FAA /* XXX_10_ViewController_bak.swift in Sources */,
 				9222D2D61FA98FDD0033BD65 /* JLB_Data_Structs.swift in Sources */,
 				9231838D1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift in Sources */,
 				92FF785A20F268DB00016975 /* UIView+Frame.swift in Sources */,
@@ -1743,6 +1757,7 @@
 				92E6BB9420F0BECD00D4C0D8 /* TSChatButton+UI.swift in Sources */,
 				926EBD362117BE19000C38A6 /* Common_Cell03.swift in Sources */,
 				92CB747F20F3A74C00015A62 /* TSLogger.swift in Sources */,
+				920B16ED213B815300CE0FAA /* Common_Model_TableViewCell01.swift in Sources */,
 				92CB747E20F3A74C00015A62 /* TSUIImage+WeChat.swift in Sources */,
 				9278FFB420F24752006B88C9 /* ChatConfig.swift in Sources */,
 				92BDB4F520DE273A00F49C51 /* Common_Cell01_CollectionView.swift in Sources */,
@@ -1761,6 +1776,7 @@
 				92CB748620F3A74C00015A62 /* TSUIColor+WeChat.swift in Sources */,
 				9278FFB020F24752006B88C9 /* TSChatTextParser.swift in Sources */,
 				92F945C81F811C9100CD0638 /* HD_TableViewController_weicanjia.swift in Sources */,
+				929661C8211FD8E0004B0145 /* XXX_1020_Add01.swift in Sources */,
 				92CB748420F3A74C00015A62 /* TSNavigationBar.swift in Sources */,
 				9278FFCA20F247F2006B88C9 /* TSChatTimeCell.swift in Sources */,
 				921F382221005B7700C92E46 /* CFTool.swift in Sources */,
@@ -1775,6 +1791,7 @@
 				928FBAC01F681CE700B55CFC /* MC_MyClubViewController.swift in Sources */,
 				92E6BB8020F0B2EC00D4C0D8 /* TSChatViewController.swift in Sources */,
 				92E6BB7B20F0B2EC00D4C0D8 /* TSChatViewController+TestData.swift in Sources */,
+				92E4BDC9212EDCA1002DB24A /* Common_Profile_personal.swift in Sources */,
 				92CB748A20F3A8DA00015A62 /* TSAppMacro.swift in Sources */,
 				920653B71F45EAC000B5AF6F /* HD_FindResult_MainViewController.swift in Sources */,
 				92E6BB9F20F0BECD00D4C0D8 /* TSChatSystemEdgeLabel.swift in Sources */,

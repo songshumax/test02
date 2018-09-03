@@ -61,6 +61,8 @@ class YDC_10_ViewController: UIViewController,UITableViewDelegate,UITableViewDat
         return cell
     }
     
+    
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         tabBarController?.tabBar.isHidden = false
@@ -184,6 +186,15 @@ class YDC_10_ViewController: UIViewController,UITableViewDelegate,UITableViewDat
         self.performSegue(withIdentifier: "YDC102SetQuery", sender: nil)
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let story = UIStoryboard(name: "XXX", bundle: nil)
+        
+        let vc = story.instantiateViewController(withIdentifier: "Common_eventConten")
+        
+        print(vc.classForCoder)
+        self.navigationController?.show(vc, sender: nil)
+    }
+    
     @objc func btnitemright(sender:UIButton?){
         
         popMenu = SwiftPopMenu(frame:  CGRect(x: UIScreen.main.bounds.size.width - 140, y: 60, width: 130, height: 350), arrowMargin: 12)
@@ -199,6 +210,9 @@ class YDC_10_ViewController: UIViewController,UITableViewDelegate,UITableViewDat
         popMenu.didSelectMenuBlock = { [weak self](index:Int)->Void in
             self?.popMenu.dismiss()
             print("block select \(index)")
+            
+            let add = XXX_1020_Add01()
+            self?.navigationController?.show(add, sender: nil)
             
         }
         popMenu.show()

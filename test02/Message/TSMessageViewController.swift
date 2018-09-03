@@ -17,7 +17,7 @@ class TSMessageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "微信"
+        self.title = "XXX"
         self.view.backgroundColor = UIColor.viewBackgroundColor
         self.navigationItem.rightButtonAction(TSAsset.Barbuttonicon_add.image) { () -> Void in
             self.actionFloatView.hide(!self.actionFloatView.isHidden)
@@ -35,6 +35,7 @@ class TSMessageViewController: UIViewController {
         self.listTableView.ts_registerCellNib(TSMessageTableViewCell.self)
         self.listTableView.estimatedRowHeight = 65
         self.listTableView.tableFooterView = UIView()
+
         
         self.fetchData()
     }

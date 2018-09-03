@@ -77,6 +77,22 @@ final class TSChatViewController: UIViewController {
         
         //获取第一屏的数据
         self.firstFetchMessageList()
+        
+        let itemright = UIBarButtonItem(title: "详细", style: UIBarButtonItemStyle.plain, target: self, action: #selector(self.btnitemright(sender:)))
+        
+        self.navigationItem.rightBarButtonItem = itemright
+        
+    }
+    
+    @objc func btnitemright(sender:UIButton?){
+        print("这里是详细")
+        let story = UIStoryboard(name: "XXX", bundle: nil)
+        
+        let vc = story.instantiateViewController(withIdentifier: "Profile_person")
+        
+        print(vc.classForCoder)
+        self.navigationController?.show(vc, sender: nil)
+
     }
     
     override func viewDidAppear(_ animated: Bool) {

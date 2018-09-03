@@ -11,10 +11,6 @@ import UIKit
 
 class Common_Cell01_CollectionView : UICollectionViewCell
 {
-//    var imageString = "001"
-//    var nameText = "First Name 111111111112345678901234567890"
-//    var messageText = "This is my test message 12345678901234567890"
-//    var timeText = "12:00"
     
     var message : Message?
     
@@ -32,24 +28,18 @@ class Common_Cell01_CollectionView : UICollectionViewCell
     
     let nameLable : UILabel = {
        let lable = UILabel()
-//        lable.text = nameText
-//        lable.text = "First Name 111111111112345678901234567890"
         lable.font = UIFont.systemFont(ofSize: 18)
         return lable
     }()
     
     let messageLable : UILabel = {
         let lable = UILabel()
-//        lable.text = messageText
-//        lable.text = "This is my test message 12345678901234567890"
         lable.font = UIFont.systemFont(ofSize: 14)
         return lable
     }()
     
     let timeLable : UILabel = {
         let lable = UILabel()
-//        lable.text = timeText
-//        lable.text = "12:00"
         lable.font = UIFont.systemFont(ofSize: 14)
         lable.textAlignment = NSTextAlignment.center
         return lable
@@ -58,6 +48,8 @@ class Common_Cell01_CollectionView : UICollectionViewCell
     override init(frame: CGRect){
         super.init(frame: frame)
         setupView()
+        self.selectedBackgroundView?.backgroundColor = UIColor.blue
+        
     }
     func setNameLable(name : String) {
         nameLable.text = name

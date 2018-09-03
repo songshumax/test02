@@ -13,6 +13,8 @@ inhibit_all_warnings!
   
 def pods
 
+#  pod 'SwiftyFORM'
+  pod 'SwiftyFORM'
   pod 'GooglePlaces'
   pod 'GooglePlacePicker'
   pod 'GoogleMaps'
@@ -46,6 +48,7 @@ def pods
   pod 'YYText', '1.0.7'
   pod 'SVProgressHUD', '2.0.4'
   pod 'INTULocationManager', '4.2.0'
+  
 end
   
   

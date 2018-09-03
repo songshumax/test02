@@ -1,0 +1,67 @@
+{
+    "message": "",
+    "code": 0,
+    "data": [
+            {
+             "listID": "1001",
+             "imageURL": "https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1535862208&di=fc20149a34c32adb70758e46787353b0&src=http://img.25pp.com/uploadfile/soft/images/2013/0124/20130124043125791.jpg",
+             "unreadNum": "10",
+             "dateTime": "2018-08-01",
+             "nameorTitle": "李三",
+             "detail": "这里是个人消息",
+             "sportsType": "01",
+             "sportsTypeIMG": "004"
+              },
+             {
+             "listID": "1002",
+             "imageURL": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1535872296042&di=9303ad9adcdacabd639a60d27ea6d597&imgtype=0&src=http%3A%2F%2Fimg.25pp.com%2Fuploadfile%2Fapp%2Ficon%2F20150917%2F1442484082378934.jpg",
+             "unreadNum": "10",
+             "dateTime": "2018-08-01",
+             "nameorTitle":"运动群1",
+             "detail":"这里是群消息",
+             "sportsType":"02",
+             "sportsTypeIMG":"004"
+             },
+             {
+             "listID": "1003",
+             "imageURL": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1535874470023&di=5c963c6d10214d3be52124779c5c7898&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3D9c93b63b780e0cf3b4fa46b8622f986a%2Fd6ca7bcb0a46f21fb2c8457afc246b600c33ae1e.jpg",
+             "unreadNum": "10",
+             "dateTime": "2018-08-01",
+             "nameorTitle":"活动1",
+             "detail":"这里是活动消息",
+             "sportsType":"03",
+             "sportsTypeIMG":"004"
+             },
+             {
+             "listID": "1004",
+             "imageURL": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536469271&di=b1e83cf512c061806a33578516829efd&imgtype=jpg&er=1&src=http%3A%2F%2Fpic2.16pic.com%2F00%2F13%2F94%2F16pic_1394845_b.jpg",
+             "unreadNum": "10",
+             "dateTime": "2018-08-01",
+             "nameorTitle":"竞技1",
+             "detail":"这里是竞技消息",
+             "sportsType":"04",
+             "sportsTypeIMG":"004"
+             },
+             {
+             "listID": "1005",
+             "imageURL": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536469290&di=54d8fa4d47259bdbc50af9423c86e506&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.ffpic.com%2Ffiles%2F2017%2F0504%2Fsl0307dlz5x.jpg",
+             "unreadNum": "10",
+             "dateTime": "2018-08-01",
+             "nameorTitle":"比赛1",
+             "detail":"这里是比赛消息",
+             "sportsType":"05",
+             "sportsTypeIMG":"004"
+             },
+             {
+             "listID": "1006",
+             "imageURL": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3917846036,579277374&fm=26&gp=0.jpg",
+             "unreadNum": "10",
+             "dateTime": "2018-08-01",
+             "nameorTitle":"俱乐部1",
+             "detail":"这里是俱乐部消息",
+             "sportsType":"06",
+             "sportsTypeIMG":"004"
+             }
+             
+             ]
+}

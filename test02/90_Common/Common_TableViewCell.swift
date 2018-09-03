@@ -22,3 +22,6 @@ class Common_TableViewCell: UITableViewCell {
     }
     
 }
+
+
+
