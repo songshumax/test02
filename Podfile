@@ -15,6 +15,9 @@ def pods
 
 #  pod 'SwiftyFORM'
   pod 'SwiftyFORM'
+  pod 'SwiftForms'
+  pod 'Eureka'
+  
   pod 'GooglePlaces'
   pod 'GooglePlacePicker'
   pod 'GoogleMaps'

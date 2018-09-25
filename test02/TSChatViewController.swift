@@ -34,6 +34,7 @@ final class TSChatViewController: UIViewController {
         return listTableView
     }()
     
+    var sportsType:String = ""
     var chatActionBarView: TSChatActionBarView!  //action bar
     var actionBarPaddingBottomConstranit: Constraint? //action bar 的 bottom Constraint
     var keyboardHeightConstraint: NSLayoutConstraint?  //键盘高度的 Constraint
@@ -85,13 +86,24 @@ final class TSChatViewController: UIViewController {
     }
     
     @objc func btnitemright(sender:UIButton?){
-        print("这里是详细")
-        let story = UIStoryboard(name: "XXX", bundle: nil)
-        
-        let vc = story.instantiateViewController(withIdentifier: "Profile_person")
-        
-        print(vc.classForCoder)
-        self.navigationController?.show(vc, sender: nil)
+        if sportsType == "0" {
+            let story = UIStoryboard(name: "XXX", bundle: nil)
+            
+            let vc = story.instantiateViewController(withIdentifier: "Profile_person")
+            
+            print(vc.classForCoder)
+            self.navigationController?.show(vc, sender: nil)
+        }else if sportsType == "1" {
+            
+            let add = Common_Profile_Group()
+            self.navigationController?.show(add, sender: nil)
+            
+        }else if sportsType == "2" {
+            let add = Common_Profile_Event()
+            self.navigationController?.show(add, sender: nil)
+        }else {
+            print("这里是详细")
+        }
 
     }
     

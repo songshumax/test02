@@ -9,17 +9,38 @@
 import Foundation
 import SwiftyJSON
 import SnapKit
+import Eureka
 
-class Common_SportsList: UIViewController,UITableViewDelegate,UITableViewDataSource {
+public class Common_SportsList: FormViewController,TypedRowControllerType {
     
     fileprivate var itemDataSouce = [YDC_Model01]()
     fileprivate var itemDataSouce1 = [YDC_Model01]()
     
-    @IBOutlet weak var tableview: UITableView!
+    public var row: RowOf<String>!
+    
+    
+    public var PopTextDate = ""
 
+
+    public var onDismissCallback: ((UIViewController) -> ())?
     
     
-    override func viewDidLoad() {
+    required public init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
+    public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    convenience public init(_ callback: ((UIViewController) -> ())?){
+        self.init(nibName: nil, bundle: nil)
+        onDismissCallback = callback
+    }
+    
+    @IBOutlet weak var tableview: UITableView!
+    
+    override public func viewDidLoad() {
         super.viewDidLoad()
     
         self.title = "活动1"
@@ -36,23 +57,23 @@ class Common_SportsList: UIViewController,UITableViewDelegate,UITableViewDataSou
         tableview.reloadData()
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         //        return 5
         return self.itemDataSouce.count
         
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    override public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return self.tableview.estimatedRowHeight
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: YDC_10_TableViewCell = tableView.ts_dequeueReusableCell(YDC_10_TableViewCell.self)
         cell.setCellContnet(self.itemDataSouce[indexPath.row])
         return cell
     }
     
-    override func viewWillAppear(_ animated: Bool) {
+    override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 //        tabBarController?.tabBar.isHidden = false
         

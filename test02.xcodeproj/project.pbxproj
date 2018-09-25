@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0910F113D7C625A825C12121 /* Pods_test02.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B96321BFC9184139B0B6D0 /* Pods_test02.framework */; };
+		92051D022149E9040096467E /* Common_Profile_Group_bak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92051D012149E9040096467E /* Common_Profile_Group_bak.swift */; };
+		92051D11214E28490096467E /* RowsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92051D10214E28490096467E /* RowsExample.swift */; };
+		92051D13214E32FB0096467E /* Common_QRCodeContorller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92051D12214E32FB0096467E /* Common_QRCodeContorller.swift */; };
 		920653B71F45EAC000B5AF6F /* HD_FindResult_MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920653B61F45EAC000B5AF6F /* HD_FindResult_MainViewController.swift */; };
 		920653B91F45EB6100B5AF6F /* HD_FindResult_Main_TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920653B81F45EB6100B5AF6F /* HD_FindResult_Main_TVC.swift */; };
 		920653BB1F472E4900B5AF6F /* HD_Detailed_MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920653BA1F472E4900B5AF6F /* HD_Detailed_MainViewController.swift */; };
@@ -43,6 +47,8 @@
 		923126FB210C4C9300E66A4C /* Common_Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923126FA210C4C9300E66A4C /* Common_Constraints.swift */; };
 		9231838D1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231838C1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift */; };
 		9231838F1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231838E1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift */; };
+		9234B5E1215895060058936D /* Common_PopTextContorller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234B5E0215895060058936D /* Common_PopTextContorller.swift */; };
+		9234B5E6215A5C990058936D /* Common_Profile_Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234B5E5215A5C990058936D /* Common_Profile_Event.swift */; };
 		92459E3B213A621B00D48E9D /* Common_SportsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92459E3A213A621B00D48E9D /* Common_SportsList.swift */; };
 		924D73241F83C39600E74BD0 /* HD_Module_HuoDong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924D73231F83C39600E74BD0 /* HD_Module_HuoDong.swift */; };
 		924D73261F83C45A00E74BD0 /* HD_Data_Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924D73251F83C45A00E74BD0 /* HD_Data_Structs.swift */; };
@@ -115,6 +121,7 @@
 		928FBAC01F681CE700B55CFC /* MC_MyClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928FBABF1F681CE700B55CFC /* MC_MyClubViewController.swift */; };
 		928FBAC21F68226900B55CFC /* MC_ClubMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928FBAC11F68226900B55CFC /* MC_ClubMainViewController.swift */; };
 		929661C8211FD8E0004B0145 /* XXX_1020_Add01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929661C7211FD8E0004B0145 /* XXX_1020_Add01.swift */; };
+		9299280B214F4EAA0047F4FF /* xcxcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9299280A214F4EAA0047F4FF /* xcxcViewController.swift */; };
 		92A8BAE420DFD690004245C2 /* objectXXX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8BAE320DFD690004245C2 /* objectXXX.swift */; };
 		92A8BAE620DFD6C4004245C2 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8BAE520DFD6C4004245C2 /* Message.swift */; };
 		92A8BAE920DFDE1A004245C2 /* XXX_Module_Func.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8BAE820DFDE1A004245C2 /* XXX_Module_Func.swift */; };
@@ -191,6 +198,9 @@
 		92E6BBB520F0C4EE00D4C0D8 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E6BBAC20F0C4EE00D4C0D8 /* NSDate+Extension.swift */; };
 		92F30159213B86DE00B16715 /* Common_TableViewCell01.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92F30158213B86DE00B16715 /* Common_TableViewCell01.xib */; };
 		92F3015B213D658500B16715 /* Common_EventContentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F3015A213D658500B16715 /* Common_EventContentTableViewController.swift */; };
+		92F3015E21415BA100B16715 /* Common_Profile_Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F3015D21415BA100B16715 /* Common_Profile_Group.swift */; };
+		92F3016021416DC200B16715 /* Common_TableView01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F3015F21416DC200B16715 /* Common_TableView01.swift */; };
+		92F3016221416E6400B16715 /* Get_UserProfiles_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F3016121416E6400B16715 /* Get_UserProfiles_Model.swift */; };
 		92F3105620DE08D800B115D2 /* XXX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F3105520DE08D800B115D2 /* XXX.storyboard */; };
 		92F3105920DE1FF900B115D2 /* Common_TableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92F3105820DE1FF900B115D2 /* Common_TableView.xib */; };
 		92F3105B20DE201D00B115D2 /* Common_Cell01.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92F3105A20DE201D00B115D2 /* Common_Cell01.xib */; };
@@ -298,6 +308,9 @@
 		165ECE1D76D47B1C08C5011D /* Pods-test02.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test02.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test02/Pods-test02.debug.xcconfig"; sourceTree = "<group>"; };
 		6D9D6839C6848D3ED2243FD7 /* Pods-test02.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test02.release.xcconfig"; path = "Pods/Target Support Files/Pods-test02/Pods-test02.release.xcconfig"; sourceTree = "<group>"; };
 		71E077B00C2ABFE3E2C79165 /* Pods_test02UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test02UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92051D012149E9040096467E /* Common_Profile_Group_bak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common_Profile_Group_bak.swift; path = 90_Common/Common_Profile_Group_bak.swift; sourceTree = "<group>"; };
+		92051D10214E28490096467E /* RowsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RowsExample.swift; path = test02/90_Common/Eureka/RowsExample.swift; sourceTree = SOURCE_ROOT; };
+		92051D12214E32FB0096467E /* Common_QRCodeContorller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common_QRCodeContorller.swift; sourceTree = "<group>"; };
 		920653B61F45EAC000B5AF6F /* HD_FindResult_MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HD_FindResult_MainViewController.swift; path = HouDong/Controller/HD_FindResult_MainViewController.swift; sourceTree = "<group>"; };
 		920653B81F45EB6100B5AF6F /* HD_FindResult_Main_TVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HD_FindResult_Main_TVC.swift; path = HouDong/Controller/HD_FindResult_Main_TVC.swift; sourceTree = "<group>"; };
 		920653BA1F472E4900B5AF6F /* HD_Detailed_MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HD_Detailed_MainViewController.swift; path = HouDong/Controller/HD_Detailed_MainViewController.swift; sourceTree = "<group>"; };
@@ -333,6 +346,8 @@
 		923126FA210C4C9300E66A4C /* Common_Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_Constraints.swift; path = 90_Common/Common_Constraints.swift; sourceTree = "<group>"; };
 		9231838C1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_ClubDetail_TableViewController.swift; path = JuLeBu/Controller/JLB_ClubDetail_TableViewController.swift; sourceTree = "<group>"; };
 		9231838E1FAD4D4200A20F8F /* JLB_UserList_CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JLB_UserList_CollectionViewController.swift; path = 03_MyClub/Controller/JLB_UserList_CollectionViewController.swift; sourceTree = "<group>"; };
+		9234B5E0215895060058936D /* Common_PopTextContorller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common_PopTextContorller.swift; path = 90_Common/Common_PopTextContorller.swift; sourceTree = "<group>"; };
+		9234B5E5215A5C990058936D /* Common_Profile_Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common_Profile_Event.swift; path = 90_Common/Common_Profile_Event.swift; sourceTree = "<group>"; };
 		9236C93C2123059A00AB4643 /* SwiftyFORM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyFORM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92459E3A213A621B00D48E9D /* Common_SportsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_SportsList.swift; path = 90_Common/Common_SportsList.swift; sourceTree = "<group>"; };
 		924D73231F83C39600E74BD0 /* HD_Module_HuoDong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HD_Module_HuoDong.swift; path = HouDong/Module/HD_Module_HuoDong.swift; sourceTree = "<group>"; };
@@ -413,6 +428,7 @@
 		928FBABF1F681CE700B55CFC /* MC_MyClubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MC_MyClubViewController.swift; path = 03_MyClub/Controller/MC_MyClubViewController.swift; sourceTree = "<group>"; };
 		928FBAC11F68226900B55CFC /* MC_ClubMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MC_ClubMainViewController.swift; path = 03_MyClub/Controller/MC_ClubMainViewController.swift; sourceTree = "<group>"; };
 		929661C7211FD8E0004B0145 /* XXX_1020_Add01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XXX_1020_Add01.swift; path = 10_XXX/XXX_10/Controller/XXX_1020_Add01.swift; sourceTree = "<group>"; };
+		9299280A214F4EAA0047F4FF /* xcxcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xcxcViewController.swift; sourceTree = "<group>"; };
 		92A8BAE320DFD690004245C2 /* objectXXX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = objectXXX.swift; path = 90_Common/Class/objectXXX.swift; sourceTree = "<group>"; };
 		92A8BAE520DFD6C4004245C2 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = 90_Common/Class/Message.swift; sourceTree = "<group>"; };
 		92A8BAE820DFDE1A004245C2 /* XXX_Module_Func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XXX_Module_Func.swift; path = 10_XXX/XXX_10/Module/XXX_Module_Func.swift; sourceTree = "<group>"; };
@@ -489,6 +505,9 @@
 		92E6BBAC20F0C4EE00D4C0D8 /* NSDate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
 		92F30158213B86DE00B16715 /* Common_TableViewCell01.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Common_TableViewCell01.xib; path = 20_YunDongChang/Module/Common_TableViewCell01.xib; sourceTree = "<group>"; };
 		92F3015A213D658500B16715 /* Common_EventContentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_EventContentTableViewController.swift; path = 90_Common/Common_EventContentTableViewController.swift; sourceTree = "<group>"; };
+		92F3015D21415BA100B16715 /* Common_Profile_Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common_Profile_Group.swift; path = 90_Common/Common_Profile_Group.swift; sourceTree = "<group>"; };
+		92F3015F21416DC200B16715 /* Common_TableView01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common_TableView01.swift; path = 90_Common/Common_TableView01.swift; sourceTree = "<group>"; };
+		92F3016121416E6400B16715 /* Get_UserProfiles_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get_UserProfiles_Model.swift; sourceTree = "<group>"; };
 		92F3105520DE08D800B115D2 /* XXX.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = XXX.storyboard; sourceTree = "<group>"; };
 		92F3105820DE1FF900B115D2 /* Common_TableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Common_TableView.xib; path = 90_Common/Common_TableView.xib; sourceTree = "<group>"; };
 		92F3105A20DE201D00B115D2 /* Common_Cell01.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Common_Cell01.xib; path = 90_Common/Common_Cell01.xib; sourceTree = "<group>"; };
@@ -539,6 +558,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99B7F6E620319241008E0FD3 /* CVCalendar.framework in Frameworks */,
+				0910F113D7C625A825C12121 /* Pods_test02.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +586,14 @@
 				6D9D6839C6848D3ED2243FD7 /* Pods-test02.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		92051D0C214E280D0096467E /* Eureka */ = {
+			isa = PBXGroup;
+			children = (
+				92051D10214E28490096467E /* RowsExample.swift */,
+			);
+			path = Eureka;
 			sourceTree = "<group>";
 		};
 		92180A4B20EA543A0091D736 /* Chat */ = {
@@ -1054,6 +1082,7 @@
 				92E6BB5920F0B29000D4C0D8 /* TSMessageModel.swift */,
 				92E6BB5A20F0B29000D4C0D8 /* TSModel.swift */,
 				92E6BB5B20F0B29000D4C0D8 /* TSModelTransformer.swift */,
+				92F3016121416E6400B16715 /* Get_UserProfiles_Model.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1114,6 +1143,7 @@
 			children = (
 				926505B61F10AF9500362203 /* Main.storyboard */,
 				92F3105520DE08D800B115D2 /* XXX.storyboard */,
+				9299280A214F4EAA0047F4FF /* xcxcViewController.swift */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
@@ -1121,6 +1151,7 @@
 		92F3105720DE1FA900B115D2 /* 90_Common */ = {
 			isa = PBXGroup;
 			children = (
+				92051D0C214E280D0096467E /* Eureka */,
 				921F382121005B7700C92E46 /* CFTool.swift */,
 				92E4495B20F04B870045CA96 /* Resource */,
 				92E6BBA320F0C4EE00D4C0D8 /* Helpers */,
@@ -1141,10 +1172,16 @@
 				926EBD37211B2BF8000C38A6 /* Common_Cell04.swift */,
 				926EBD38211B2BF8000C38A6 /* Common_Cell04.xib */,
 				92E4BDC7212EDCA1002DB24A /* Common_Profile_personal.swift */,
+				92051D12214E32FB0096467E /* Common_QRCodeContorller.swift */,
+				9234B5E0215895060058936D /* Common_PopTextContorller.swift */,
 				92E4BDC8212EDCA1002DB24A /* Common_Profile_personal.xib */,
 				92E4BDD3213428E6002DB24A /* Common_Profile_personal_sb.swift */,
 				92459E3A213A621B00D48E9D /* Common_SportsList.swift */,
+				92F3015F21416DC200B16715 /* Common_TableView01.swift */,
 				92F3015A213D658500B16715 /* Common_EventContentTableViewController.swift */,
+				92F3015D21415BA100B16715 /* Common_Profile_Group.swift */,
+				9234B5E5215A5C990058936D /* Common_Profile_Event.swift */,
+				92051D012149E9040096467E /* Common_Profile_Group_bak.swift */,
 			);
 			name = 90_Common;
 			sourceTree = "<group>";
@@ -1567,6 +1604,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Cent/Cent.framework",
 				"${BUILT_PRODUCTS_DIR}/Dollar/Dollar.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/INTULocationManager/INTULocationManager.framework",
@@ -1579,6 +1617,7 @@
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftForms/SwiftForms.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyFORM/SwiftyFORM.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/TSVoiceConverter/TSVoiceConverter.framework",
@@ -1596,6 +1635,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cent.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dollar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/INTULocationManager.framework",
@@ -1608,6 +1648,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftForms.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyFORM.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TSVoiceConverter.framework",
@@ -1669,6 +1710,7 @@
 				92E6BB9C20F0BECD00D4C0D8 /* TSChatButton.swift in Sources */,
 				9985750B20C22D3500203F91 /* HD_TableViewCell_Detail_R01.swift in Sources */,
 				928FBAC21F68226900B55CFC /* MC_ClubMainViewController.swift in Sources */,
+				92051D11214E28490096467E /* RowsExample.swift in Sources */,
 				9278FFB720F24752006B88C9 /* AudioRecordManager.swift in Sources */,
 				9985750420BC1CB200203F91 /* RootViewController.swift in Sources */,
 				92E6BB6420F0B29000D4C0D8 /* TSContactModel.swift in Sources */,
@@ -1701,11 +1743,14 @@
 				92CB748220F3A74C00015A62 /* TSUIImageVIew+WeChat.swift in Sources */,
 				92E6BB9620F0BECD00D4C0D8 /* TSChatEmotionCell.swift in Sources */,
 				92CB748120F3A74C00015A62 /* TSFullyHorizontalFlowLayout.swift in Sources */,
+				92051D022149E9040096467E /* Common_Profile_Group_bak.swift in Sources */,
 				92E6BB9820F0BECD00D4C0D8 /* TSChatVoiceIndicatorView.swift in Sources */,
+				92F3015E21415BA100B16715 /* Common_Profile_Group.swift in Sources */,
 				92FF785720F268DB00016975 /* UISearchBar+Extension.swift in Sources */,
 				92E6BB6320F0B29000D4C0D8 /* TSUserManager.swift in Sources */,
 				92E6BB6A20F0B29000D4C0D8 /* TSModelTransformer.swift in Sources */,
 				92A8BAE620DFD6C4004245C2 /* Message.swift in Sources */,
+				92F3016221416E6400B16715 /* Get_UserProfiles_Model.swift in Sources */,
 				92E6BB7C20F0B2EC00D4C0D8 /* TSChatViewController+Interaction.swift in Sources */,
 				920C776F1FADD6EF00625060 /* MC_Module_MyClub.swift in Sources */,
 				92A8BAEC20DFE173004245C2 /* Model.xcdatamodeld in Sources */,
@@ -1715,11 +1760,14 @@
 				92E4BDD721343A47002DB24A /* TableViewController.swift in Sources */,
 				994708B62039AF2A003409DD /* Mc_MapCustom01View.swift in Sources */,
 				920653BB1F472E4900B5AF6F /* HD_Detailed_MainViewController.swift in Sources */,
+				9234B5E6215A5C990058936D /* Common_Profile_Event.swift in Sources */,
 				9278FFB620F24752006B88C9 /* ImageFilesManager.swift in Sources */,
 				9222D2D91FA997C20033BD65 /* JLB_CanjiaZhongList_Cell.swift in Sources */,
 				926EBD342116E3DA000C38A6 /* Ser_10_MainController_collectionview.swift in Sources */,
 				92F3015B213D658500B16715 /* Common_EventContentTableViewController.swift in Sources */,
 				92E6BB7920F0B2EC00D4C0D8 /* TSChatViewController+CellEnums.swift in Sources */,
+				9234B5E1215895060058936D /* Common_PopTextContorller.swift in Sources */,
+				9299280B214F4EAA0047F4FF /* xcxcViewController.swift in Sources */,
 				92BDB4F820DE2DB100F49C51 /* XXX_10_ViewController.swift in Sources */,
 				92A8BAF820E86538004245C2 /* XXX_101010_AddNewViewController.swift in Sources */,
 				92459E3B213A621B00D48E9D /* Common_SportsList.swift in Sources */,
@@ -1734,6 +1782,7 @@
 				92A8BAE420DFD690004245C2 /* objectXXX.swift in Sources */,
 				99A5CD90208C99A800378FEF /* HY_Main_CollectionViewController.swift in Sources */,
 				920B16E4213AD21B00CE0FAA /* XXX_10_ViewController_bak.swift in Sources */,
+				92F3016021416DC200B16715 /* Common_TableView01.swift in Sources */,
 				9222D2D61FA98FDD0033BD65 /* JLB_Data_Structs.swift in Sources */,
 				9231838D1FAB2C1800A20F8F /* JLB_ClubDetail_TableViewController.swift in Sources */,
 				92FF785A20F268DB00016975 /* UIView+Frame.swift in Sources */,
@@ -1767,6 +1816,7 @@
 				921F3820210059F400C92E46 /* YDC_1010_SetQueryViewController.swift in Sources */,
 				926505B31F10AF9500362203 /* AppDelegate.swift in Sources */,
 				92E6BB9A20F0BECD00D4C0D8 /* TSChatShareMoreCollectionViewCell.swift in Sources */,
+				92051D13214E32FB0096467E /* Common_QRCodeContorller.swift in Sources */,
 				922F699120FECC6700EFE6A9 /* YDC_1010_SetQueryViewController_v10.swift in Sources */,
 				922F698620FDEC6000EFE6A9 /* YDC_Model04.swift in Sources */,
 				92FA8D1C20FC7EA200425452 /* TSMessageTableViewCell.swift in Sources */,
