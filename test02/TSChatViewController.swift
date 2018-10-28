@@ -101,6 +101,8 @@ final class TSChatViewController: UIViewController {
         }else if sportsType == "2" {
             let add = Common_Profile_Event()
             self.navigationController?.show(add, sender: nil)
+            
+            
         }else {
             print("这里是详细")
         }

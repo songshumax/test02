@@ -17,11 +17,7 @@ public class Common_SportsList: FormViewController,TypedRowControllerType {
     fileprivate var itemDataSouce1 = [YDC_Model01]()
     
     public var row: RowOf<String>!
-    
-    
     public var PopTextDate = ""
-
-
     public var onDismissCallback: ((UIViewController) -> ())?
     
     
@@ -58,7 +54,7 @@ public class Common_SportsList: FormViewController,TypedRowControllerType {
     }
     
     override public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        //        return 5
+        
         return self.itemDataSouce.count
         
     }
@@ -75,7 +71,7 @@ public class Common_SportsList: FormViewController,TypedRowControllerType {
     
     override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-//        tabBarController?.tabBar.isHidden = false
+
         
     }
     

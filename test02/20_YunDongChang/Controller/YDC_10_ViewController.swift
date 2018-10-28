@@ -187,7 +187,7 @@ class YDC_10_ViewController: UIViewController,UITableViewDelegate,UITableViewDat
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let story = UIStoryboard(name: "XXX", bundle: nil)
+        let story = UIStoryboard(name: "EventContent", bundle: nil)
         
         let vc = story.instantiateViewController(withIdentifier: "Common_eventConten")
         

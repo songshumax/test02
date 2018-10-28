@@ -7,66 +7,44 @@
 //
 
 import UIKit
-import CoreLocation
-import Eureka
+import SwiftyFORM
 
 class Common_Profile_Event: FormViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func populate(_ builder: FormBuilder) {
+        builder.navigationTitle = "活动详细"
+        builder += ViewControllerFormItem().title("查看/编辑活动详细").storyboard("EventContent", bundle: nil)
+        builder += ViewControllerFormItem().title("二维码").viewController(Common_QRCodeContorller.self)
+        notes.value = "sdfsldfjlksjdflksjdflaksjdfl;aksjdfl;kxnvkjc;aksjdf;laksjdfl;aksjdfl;aksjdfa;lksjdfal;ksjdfa;lskfdja;lksdjfa;lskdfja;slkdjfa;lskfjdal;skfdjal;skfdjal;skdjfal;skfdja;slkfja;slkdfj"
+        builder += notes
+        builder += ViewControllerFormItem().title("查找").viewController(Common_PopTextContorller_02.self)
         
-        URLRow.defaultCellUpdate = { cell, row in cell.textField.textColor = .blue }
-        LabelRow.defaultCellUpdate = { cell, row in cell.detailTextLabel?.textColor = .orange  }
-        CheckRow.defaultCellSetup = { cell, row in cell.tintColor = .orange }
-        DateRow.defaultRowInitializer = { row in row.minimumDate = Date() }
+        builder += noMessage
+        builder += topMessage
         
-        form +++
-            
-            Section()
-            
-            <<< PopEventDetailRow () {
-                $0.title = "活动详细"
-                $0.tag = "EventDetail"
-            }
-        
-            <<< QRCodeRow() {
-                $0.title = "二维码"
-                $0.tag = "QRCode"
-                $0.value = ""
-                
-            }
-        
-            <<< PopTextRow () {
-                $0.title = "群公告"
-                $0.tag = "GroupAnnouncement"
-                $0.value = ""
-            }
-            
-            <<< SwitchRow() {
-                $0.title = "消息免打扰"
-                $0.tag = "MessageSwith"
-                $0.value = true
-        }
-            <<< SwitchRow() {
-                $0.title = "置顶聊天"
-                $0.tag = "TopChatSetting"
-                $0.value = true
-        }
-        
-        +++ Section()
-            
-            <<< PopTextRow () {
-                $0.title = "我在本群中的昵称"
-                $0.tag = "MyNicename"
-                $0.value = "马云"
-                $0.inputValue = $0.value
-        }
-    
     }
     
-    @objc func multipleSelectorDone(_ item:UIBarButtonItem) {
-        _ = navigationController?.popViewController(animated: true)
-    }
+    lazy var notes: TextViewFormItem = {
+        let instance = TextViewFormItem()
+        instance.title("公告")
+        return instance
+    }()
+    
+    lazy var noMessage: SwitchFormItem = {
+        let instance = SwitchFormItem()
+        instance.title = "消息免打扰"
+        instance.value = true
+        return instance
+    }()
+    
+    lazy var topMessage: SwitchFormItem = {
+        let instance = SwitchFormItem()
+        instance.title = "置顶"
+        instance.value = true
+        return instance
+    }()
+    
+    
     
 }
 

@@ -285,10 +285,10 @@ public final class LocationRow: OptionsRow<PushSelectorCell<CLLocation>>, Presen
     public typealias PresenterRow = MapViewController
     
     /// Defines how the view controller will be presented, pushed, etc.
-    open var presentationMode: PresentationMode<PresenterRow>?
+    public var presentationMode: PresentationMode<PresenterRow>?
     
     /// Will be called before the presentation occurs.
-    open var onPresentCallback: ((FormViewController, PresenterRow) -> Void)?
+    public var onPresentCallback: ((FormViewController, PresenterRow) -> Void)?
     
     
     
@@ -310,72 +310,14 @@ public final class LocationRow: OptionsRow<PushSelectorCell<CLLocation>>, Presen
     /**
      Extends `didSelect` method
      */
-    open override func customDidSelect() {
-        super.customDidSelect()
-        guard let presentationMode = presentationMode, !isDisabled else { return }
-        if let controller = presentationMode.makeController() {
-            controller.row = self
-            controller.title = selectorTitle ?? controller.title
-            onPresentCallback?(cell.formViewController()!, controller)
-            presentationMode.present(controller, row: self, presentingController: self.cell.formViewController()!)
-        } else {
-            presentationMode.present(nil, row: self, presentingController: self.cell.formViewController()!)
-        }
-    }
-    
-    /**
-     Prepares the pushed row setting its title and completion callback.
-     */
-    public override func prepare(for segue: UIStoryboardSegue) {
-        super.prepare(for: segue)
-        guard let rowVC = segue.destination as? PresenterRow else { return }
-        rowVC.title = selectorTitle ?? rowVC.title
-        rowVC.onDismissCallback = presentationMode?.onDismissCallback ?? rowVC.onDismissCallback
-        onPresentCallback?(cell.formViewController()!, rowVC)
-        rowVC.row = self
-    }
-}
-
-public final class PopEventDetailRow: OptionsRow<PushSelectorCell<String>>, PresenterRowType, RowType {
-    
-    public typealias PresenterRow = Common_SportsList
-    
-    /// Defines how the view controller will be presented, pushed, etc.
-    public var presentationMode: PresentationMode<PresenterRow>?
-    
-    /// Will be called before the presentation occurs.
-    public var onPresentCallback: ((FormViewController, PresenterRow) -> Void)?
-    
-    public var inputValue: String?
-    
-    public required init(tag: String?) {
-        super.init(tag: tag)
-        presentationMode = .show(controllerProvider: ControllerProvider.callback { return Common_SportsList(){ _ in } }, onDismiss: { vc in _ = vc.navigationController?.popViewController(animated: true) })
-        
-        displayValueFor = {
-            guard $0 != nil else { return "" }
-            
-            return $0
-            
-        }
-    }
-    
-    /**
-     Extends `didSelect` method
-     */
     public override func customDidSelect() {
         super.customDidSelect()
         guard let presentationMode = presentationMode, !isDisabled else { return }
         if let controller = presentationMode.makeController() {
             controller.row = self
             controller.title = selectorTitle ?? controller.title
-
-            controller.PopTextDate = controller.row.value ?? ""
-            
             onPresentCallback?(cell.formViewController()!, controller)
             presentationMode.present(controller, row: self, presentingController: self.cell.formViewController()!)
-            
-            //            controller.testllabel.text = "xxxxxxccc"
         } else {
             presentationMode.present(nil, row: self, presentingController: self.cell.formViewController()!)
         }
@@ -391,6 +333,64 @@ public final class PopEventDetailRow: OptionsRow<PushSelectorCell<String>>, Pres
         rowVC.onDismissCallback = presentationMode?.onDismissCallback ?? rowVC.onDismissCallback
         onPresentCallback?(cell.formViewController()!, rowVC)
         rowVC.row = self
-        
     }
 }
+//
+//public final class PopEventDetailRow: OptionsRow<PushSelectorCell<String>>, PresenterRowType, RowType {
+//
+//    public typealias PresenterRow = Common_EventContentTableViewController
+//
+//    /// Defines how the view controller will be presented, pushed, etc.
+//    public var presentationMode: PresentationMode<PresenterRow>?
+//
+//    /// Will be called before the presentation occurs.
+//    public var onPresentCallback: ((FormViewController, PresenterRow) -> Void)?
+//
+//    public var inputValue: String?
+//
+//    public required init(tag: String?) {
+//        super.init(tag: tag)
+//        presentationMode = .show(controllerProvider: ControllerProvider.callback { return Common_EventContentTableViewController(){ _ in } }, onDismiss: { vc in _ = vc.navigationController?.popViewController(animated: true) })
+//
+//        displayValueFor = {
+//            guard $0 != nil else { return "" }
+//
+//            return $0
+//
+//        }
+//    }
+//
+//    /**
+//     Extends `didSelect` method
+//     */
+//    public override func customDidSelect() {
+//        super.customDidSelect()
+//        guard let presentationMode = presentationMode, !isDisabled else { return }
+//        if let controller = presentationMode.makeController() {
+//            controller.row = self
+//            controller.title = selectorTitle ?? controller.title
+//
+//            controller.PopTextDate = controller.row.value ?? ""
+//
+//            onPresentCallback?(cell.formViewController()!, controller)
+//            presentationMode.present(controller, row: self, presentingController: self.cell.formViewController()!)
+//
+//            //            controller.testllabel.text = "xxxxxxccc"
+//        } else {
+//            presentationMode.present(nil, row: self, presentingController: self.cell.formViewController()!)
+//        }
+//    }
+//
+//    /**
+//     Prepares the pushed row setting its title and completion callback.
+//     */
+//    public override func prepare(for segue: UIStoryboardSegue) {
+//        super.prepare(for: segue)
+//        guard let rowVC = segue.destination as? PresenterRow else { return }
+//        rowVC.title = selectorTitle ?? rowVC.title
+//        rowVC.onDismissCallback = presentationMode?.onDismissCallback ?? rowVC.onDismissCallback
+//        onPresentCallback?(cell.formViewController()!, rowVC)
+//        rowVC.row = self
+//
+//    }
+//}

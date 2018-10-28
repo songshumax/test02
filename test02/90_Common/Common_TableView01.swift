@@ -63,12 +63,6 @@ class Common_TableView01: UIViewController,UITableViewDelegate,UITableViewDataSo
         
     }
     
-    
-    
-    
-    
-    
-    
     @objc func btnitemleft(sender:UIButton?){
         print("这里是条件设定")
         self.performSegue(withIdentifier: "YDC102SetQuery", sender: nil)

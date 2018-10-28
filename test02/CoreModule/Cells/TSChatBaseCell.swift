@@ -59,6 +59,7 @@ class TSChatBaseCell: UITableViewCell {
     
     func setCellContent(_ model: ChatModel) {
         self.model = model
+        
         if self.model!.fromMe {
             let avatarURL = "http://ww3.sinaimg.cn/thumbnail/6a011e49jw1f1e87gcr14j20ks0ksdgr.jpg"
             self.avatarImageView.ts_setImageWithURLString(avatarURL, placeholderImage: TSAsset.Icon_avatar.image)

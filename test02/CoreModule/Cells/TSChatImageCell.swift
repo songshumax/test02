@@ -37,6 +37,7 @@ class TSChatImageCell: TSChatBaseCell {
         }.addDisposableTo(self.disposeBag)
     }
     
+    
     override func setCellContent(_ model: ChatModel) {
         super.setCellContent(model)
         if let localThumbnailImage = model.imageModel!.localThumbnailImage {
