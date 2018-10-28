@@ -21,7 +21,9 @@ class Common_Profile_Event: FormViewController {
         
         builder += noMessage
         builder += topMessage
-        
+        builder += TextFieldFormItem().title("昵称设定").placeholder("请输入昵称").keyboardType(.default)
+        builder += report
+        builder += deleteCacheButton
     }
     
     lazy var notes: TextViewFormItem = {
@@ -41,6 +43,34 @@ class Common_Profile_Event: FormViewController {
         let instance = SwitchFormItem()
         instance.title = "置顶"
         instance.value = true
+        return instance
+    }()
+    
+    lazy var report: OptionPickerFormItem = {
+        let instance = OptionPickerFormItem()
+        instance.title("举报").placeholder("")
+        instance.append("赌博").append("黄色").append("谣言")
+        instance.selectOptionWithTitle("赌博")
+        return instance
+    }()
+    
+    lazy var deleteCacheButton: ButtonFormItem = {
+        let instance = ButtonFormItem()
+        instance.title = "清除记录"
+        instance.action = { [weak self] in
+//            self?.form_simpleAlert("清除记录", "Button clicked")
+            let alertController = UIAlertController(title: "系统提示",
+                                                    message: "您确定要删除消息吗", preferredStyle: .alert)
+            let cancelAction = UIAlertAction(title: "取消", style: .cancel, handler: nil)
+            let okAction = UIAlertAction(title: "好的", style: .default, handler: {
+                action in
+                print("点击了确定")
+            })
+            alertController.addAction(cancelAction)
+            alertController.addAction(okAction)
+            self?.present(alertController, animated: true, completion: nil)
+            
+        }
         return instance
     }()
     
